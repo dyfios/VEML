@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.fivesqd.com/schemas/veml/1.0"
+    elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:vem="http://www.fivesqd.com/schemas/veml/1.0">
+	
+	<annotation>
+		<documentation>
+			Type for an environment background. Types supported are panorama
+			and color.
+			
+			A panorama background will be defined with a path to
+			an image file containing the panorama to display.
+			Examples:
+			- filename.png
+			- path/to/filename.png
+			- /root/path/to/filename.png
+			
+			A color background will be defined as either an RGB, RGBA, or
+			predefined text color and will be applied to the entire background.
+			The color is treated as case-insensitive.
+			Examples:
+			- #ff0011
+			- #FF0011
+			- #ff001122
+			- #FF001122
+			- red
+			- RED
+			- rEd
+		</documentation>
+	</annotation>
+	<complexType name="background">
+		<choice>
+			<element name="panorama" type="string" minOccurs="1" maxOccurs="1"></element>
+			<element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+		</choice>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			An input event. Input events contain an input (a user input that
+			will be listened for) and an event (code logic that will be
+			invoked) that will be run when that input is invoked by the user.
+			
+			Parameters to a function should be represented using a single "?".
+			
+			Attributes:
+			- input: Input to monitor
+			- event: Code to invoke when input received.
+			
+			Examples:
+			- <inputevent input="move" event="MoveCharacter(?);"></inputevent>
+			- <inputevent input="endmove" event="EndMoveCharacter();"></inputevent>
+			- <inputevent input="look" event="LookCharacter(?);"></inputevent>
+			- <inputevent input="endlook" event="EndLookCharacter();"></inputevent>
+		</documentation>
+	</annotation>
+	<complexType name="inputevent">
+        <attribute name="input" type="string"></attribute>
+		<attribute name="event" type="string"></attribute>
+    </complexType>
+
+	<annotation>
+		<documentation>
+			A synchronization service.
+			Attributes:
+			- type:    Type of synchronization service (i.e. vss)
+			- address: Address of the synchronization service
+			- id:      ID of session (UUID-encoded)
+			- session: A name for the session
+		</documentation>
+	</annotation>
+	<complexType name="synchronizationservice">
+		<attribute name="type" type="string"></attribute>
+		<attribute name="address" type="string"></attribute>
+		<attribute name="id" type="string"></attribute>
+		<attribute name="session" type="string"></attribute>
+	</complexType>
+	
+	<annotation>
+		<documentation>
+			A 3 dimensional position containing x, y, and z values.
+		</documentation>
+	</annotation>
+    <complexType name="position">
+        <attribute name="x" type="double" default="0"></attribute>
+        <attribute name="y" type="double" default="0"></attribute>
+        <attribute name="z" type="double" default="0"></attribute>
+    </complexType>
+
+	<annotation>
+		<documentation>
+			A 3 dimensional rotation represented as a quaternion
+			containing x, y, z, and w values.
+		</documentation>
+	</annotation>
+    <complexType name="rotation">
+        <attribute name="x" type="double" default="0"></attribute>
+        <attribute name="y" type="double" default="0"></attribute>
+        <attribute name="z" type="double" default="0"></attribute>
+        <attribute name="w" type="double" default="1"></attribute>
+    </complexType>
+
+	<annotation>
+		<documentation>
+			A 3 dimensional scale containing x, y, and z values.
+		</documentation>
+	</annotation>
+    <complexType name="scale">
+        <attribute name="x" type="double" default="1"></attribute>
+        <attribute name="y" type="double" default="1"></attribute>
+        <attribute name="z" type="double" default="1"></attribute>
+    </complexType>
+
+	<annotation>
+		<documentation>
+			A 3 dimensional size value in meters containing
+			x, y, and z values.
+		</documentation>
+	</annotation>
+    <complexType name="size">
+        <attribute name="x" type="double" default="1"></attribute>
+        <attribute name="y" type="double" default="1"></attribute>
+        <attribute name="z" type="double" default="1"></attribute>
+    </complexType>
+
+	<annotation>
+		<documentation>
+			A 2 dimensional position value for an element with its
+			x and y values representing the ratio (between 0
+			and 1) at which the element is positioned within its
+			parent from the top-left corner to the bottom-right
+			corner.
+		</documentation>
+	</annotation>
+	<complexType name="position-percent">
+		<attribute name="x" type="double" default="0"></attribute>
+		<attribute name="y" type="double" default="0"></attribute>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A 2 dimensional size value for an element with its
+			x and y values representing the ratio (between 0
+			and 1) at which the element is sized relative to its
+			parent.
+		</documentation>
+	</annotation>
+	<complexType name="size-percent">
+		<attribute name="x" type="double" default="1"></attribute>
+		<attribute name="y" type="double" default="1"></attribute>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A transform for an entity. Can be represented using:
+			- position, rotation, and scale
+			- position, rotation, and size
+			- position-percent and size-percent
+		</documentation>
+	</annotation>
+	<complexType name="basetransform">
+		
+    </complexType>
+
+	<annotation>
+		<documentation>
+			A transform for an entity represented by a position, rotation, and scale
+		</documentation>
+	</annotation>
+	<complexType name="scaletransform">
+		<complexContent>
+			<extension base="vem:basetransform">
+				<sequence>
+					<element name="position" type="vem:position" minOccurs="1" maxOccurs="1"></element>
+					<element name="rotation" type="vem:rotation" minOccurs="1" maxOccurs="1"></element>
+					<element name="scale" type="vem:scale" minOccurs="1" maxOccurs="1"></element>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A transform for an entity represented by a position, rotation, and size
+		</documentation>
+	</annotation>
+	<complexType name="sizetransform">
+		<complexContent>
+			<extension base="vem:basetransform">
+				<sequence>
+					<element name="position" type="vem:position" minOccurs="1" maxOccurs="1"></element>
+					<element name="rotation" type="vem:rotation" minOccurs="1" maxOccurs="1"></element>
+					<element name="size" type="vem:size" minOccurs="1" maxOccurs="1"></element>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	
+	<annotation>
+		<documentation>
+			A transform for an entity placed on a canvas represented by a position-percent and size-percent
+		</documentation>
+	</annotation>
+	<complexType name="canvastransform">
+		<complexContent>
+			<extension base="vem:basetransform">
+				<sequence>
+					<element name="position-percent" type="vem:position-percent" minOccurs="1" maxOccurs="1"></element>
+					<element name="size-percent" type="vem:size-percent" minOccurs="1" maxOccurs="1"></element>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A base definition for an entity. Use of this base definition directly is
+			prohibited; an extension type must be used.
+			
+			Contains a transform and list of 0 or more children of the entity.
+			
+			Elements:
+			- transform:   transform of the entity
+			- entity:      child entities to place within this entity
+			- sychronizer: synchronizer that will synchronize this entity
+			
+			Attributes:
+			- tag:           a tag to apply to the entity. This differs from an ID in that
+			                 an entity is not guaranteed to be uniquely identifiable by its
+				             tag. Intended to be human readable.
+			- id:            a UUID-encoded identifier for the entity. If one is not provided,
+			                 the engine will define a new one.
+			- on-load-event: an optional event (script logic) to invoke upon completing
+			                 loading of the entity.
+		</documentation>
+	</annotation>
+    <complexType name="entity">
+        <sequence>
+            <element name="transform" type="vem:basetransform" minOccurs="1" maxOccurs="1"></element>
+            <element name="entity" type="vem:entity" minOccurs="0" maxOccurs="unbounded"></element>
+			<element name="synchronizer" type="string" minOccurs="0" maxOccurs="1"></element>
+        </sequence>
+        <attribute name="tag" type="string"></attribute>
+		<attribute name="id" type="string" use="optional"></attribute>
+		<attribute name="on-load-event" type="string" use="optional"></attribute>
+    </complexType>
+
+	<annotation>
+		<documentation>
+			An empty (container) entity. Inherits all elements and attributes from entity.
+		</documentation>
+	</annotation>
+    <complexType name="containerentity">
+        <complexContent>
+            <extension base="vem:entity">
+
+            </extension>
+        </complexContent>
+    </complexType>
+
+	<annotation>
+		<documentation>
+			A mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- mesh-name:     Name of the top-level mesh.
+			- mesh-resource: A list of files containing mesh resources to load for the mesh.
+		</documentation>
+	</annotation>
+    <complexType name="meshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="mesh-name" type="string" minOccurs="1" maxOccurs="1"></element>
+					<element name="mesh-resource" type="string" minOccurs="1" maxOccurs="unbounded"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+	<annotation>
+		<documentation>
+			A character entity. Inherits all elements and attributes from entity.
+		</documentation>
+	</annotation>
+	<complexType name="characterentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+					
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A canvas entity. Inherits all elements and attributes from entity.
+		</documentation>
+	</annotation>
+	<complexType name="canvasentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A button entity. Inherits all elements and attributes from entity and includes:
+			Attributes:
+			- on-click-event: An event to invoke upon clicking of the button.
+			
+			Note: Must be placed within a Canvas Entity.
+		</documentation>
+	</annotation>
+	<complexType name="buttonentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+                    
+				</sequence>
+				<attribute name="on-click-event" type="string" use="optional"></attribute>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			An input entity. Inherits all elements and attributes from entity.
+
+			Note: Must be placed within a Canvas Entity.
+		</documentation>
+	</annotation>
+	<complexType name="inputentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A light entity. Inherits all elements and attributes from entity.
+			
+			Note: Scale is ignored.
+		</documentation>
+	</annotation>
+	<complexType name="lightentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A terrain entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- length:  Length (in meters) of the terrain.
+			- width:   Width (in meters) of the terrain.
+			- height:  Height (in meters) of the terrain.
+			- heights: A comma-separated 2D array of heights.
+			           Example (for a 4x4x4 terrain):
+			             0,1,2,3;3,2,1,0;1,2,0,3;2,1,3,0
+		</documentation>
+	</annotation>
+	<complexType name="terrainentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+					
+				</sequence>
+				<attribute name="length" type="double" use="required"></attribute>
+				<attribute name="width" type="double" use="required"></attribute>
+				<attribute name="height" type="double" use="required"></attribute>
+				<attribute name="heights" type="string" use="required"></attribute>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A text entity. Inherits all elements and attributes from entity and includes:
+			Attributes:
+			- text:      Text to place on the text entity.
+			- font-size: Size to apply to the text entity's font.
+
+			Note: Must be placed within a Canvas Entity.
+		</documentation>
+	</annotation>
+	<complexType name="textentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+					
+				</sequence>
+				<attribute name="text" type="string" use="required"></attribute>
+				<attribute name="font-size" type="float" use="required"></attribute>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A voxel entity. Inherits all elements and attributes from entity.
+		</documentation>
+	</annotation>
+	<complexType name="voxelentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			Top-level definition for a VEML document. Contains two sections/elements:
+			- metadata:    Metadata for the world.
+			- environment: Description of the world's environment.
+			
+			Metadata:
+			- title:                  Title for the world.
+			- script:                 Scripts to be run in the world.
+			- inputevent:             Input events for the world.
+			- synchronizationservice: Synchronization services for the world.
+			
+			Environment:
+			- background: Color/panorama to apply to the background.
+			- entity:     Entities to place in the environment.
+		</documentation>
+	</annotation>
+	<element name="veml">
+        <complexType>
+            <sequence>
+                <element name="metadata" minOccurs="1" maxOccurs="1">
+                    <complexType>
+                        <sequence>
+                            <element name="title" minOccurs="1" maxOccurs="1" type="string"></element>
+                            <element name="script" minOccurs="0" maxOccurs="unbounded" type="string"></element>
+							<element name="inputevent" minOccurs="0" maxOccurs="unbounded" type="vem:inputevent"></element>
+							<element name="synchronizationservice" minOccurs="0" maxOccurs="unbounded" type="vem:synchronizationservice"></element>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="environment" minOccurs="1" maxOccurs="1">
+                    <complexType>
+                        <sequence>
+							<element name="background" type="vem:background" minOccurs="1" maxOccurs="1"></element>
+                            <element name="entity" type="vem:entity" minOccurs="0" maxOccurs="unbounded"></element>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
