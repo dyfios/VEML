@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace="http://www.fivesqd.com/schemas/veml/1.0"
+<schema targetNamespace="http://www.fivesqd.com/schemas/veml/1.1"
     elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:vem="http://www.fivesqd.com/schemas/veml/1.0">
+    xmlns:vem="http://www.fivesqd.com/schemas/veml/1.1">
 	
 	<annotation>
 		<documentation>
@@ -212,6 +212,25 @@
 		</complexContent>
 	</complexType>
 
+
+	<annotation>
+		<documentation>
+			A placement socket for an entity.
+			
+			Elements:
+			- position:          Position of the placement socket relative to the entity
+			- rotation:          Rotation of the placement socket relative to the entity
+			- connecting-offset: Offset to apply when connecting to another socket
+		</documentation>
+	</annotation>
+	<complexType name="placementsocket">
+		<sequence>
+            <element name="position" type="vem:position" minOccurs="1" maxOccurs="1"></element>
+			<element name="rotation" type="vem:rotation" minOccurs="1" maxOccurs="1"></element>
+			<element name="connecting-offset" type="vem:position" minOccurs="1" maxOccurs="1"></element>
+        </sequence>
+	</complexType>
+
 	<annotation>
 		<documentation>
 			A base definition for an entity. Use of this base definition directly is
@@ -220,9 +239,10 @@
 			Contains a transform and list of 0 or more children of the entity.
 			
 			Elements:
-			- transform:   transform of the entity
-			- entity:      child entities to place within this entity
-			- sychronizer: synchronizer that will synchronize this entity
+			- transform:        transform of the entity
+			- entity:           child entities to place within this entity
+			- sychronizer:      synchronizer that will synchronize this entity
+			- placement-socket: placement sockets to attach to this entity
 			
 			Attributes:
 			- tag:           a tag to apply to the entity. This differs from an ID in that
@@ -239,6 +259,7 @@
             <element name="transform" type="vem:basetransform" minOccurs="1" maxOccurs="1"></element>
             <element name="entity" type="vem:entity" minOccurs="0" maxOccurs="unbounded"></element>
 			<element name="synchronizer" type="string" minOccurs="0" maxOccurs="1"></element>
+			<element name="placement-socket" type="vem:placementsocket" minOccurs="0" maxOccurs="unbounded"></element>
         </sequence>
         <attribute name="tag" type="string"></attribute>
 		<attribute name="id" type="string" use="optional"></attribute>
@@ -365,26 +386,59 @@
 		<documentation>
 			A terrain entity. Inherits all elements and attributes from entity and includes:
 			Elements:
+			- layer:       Layers to use on the terrain.
+			- layer-masks: Comma-separated 2D arrays of layer mask values. Each array is separated by a '|'
+			               Example (for 3 layers on a 3x3 terrain):
+			                 0,0.1,0.2;0.3,0.4,0.5;0.6;0.7;0.8|0.9,1,0;0.1,0.2,0.3;0.4,0.5,0.6
+			                 |0.7,0.8,0.9;1,0,0.1;0.2,0.3,0.4
+			
+			Attributes:
 			- length:  Length (in meters) of the terrain.
 			- width:   Width (in meters) of the terrain.
 			- height:  Height (in meters) of the terrain.
 			- heights: A comma-separated 2D array of heights.
 			           Example (for a 4x4x4 terrain):
 			             0,1,2,3;3,2,1,0;1,2,0,3;2,1,3,0
+			- type:    Type of terrain. Can be one of (heightmap, voxel, hybrid).
 		</documentation>
 	</annotation>
 	<complexType name="terrainentity">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
-					
+					<element name="layer" type="vem:terrainentitylayer" minOccurs="1" maxOccurs="unbounded"></element>
+					<element name="layer-masks" type="string" minOccurs="1" maxOccurs="1"></element>
 				</sequence>
 				<attribute name="length" type="double" use="required"></attribute>
 				<attribute name="width" type="double" use="required"></attribute>
 				<attribute name="height" type="double" use="required"></attribute>
-				<attribute name="heights" type="string" use="required"></attribute>
+				<attribute name="heights" type="string" use="optional"></attribute>
+				<attribute name="type" type="string" default="heightmap"></attribute>
 			</extension>
 		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			A layer for a terrain entity. Includes:
+			Elements:
+			- diffuse-texture: Diffuse texture.
+			- normal-texture:  Normal texture.
+			- mask-texture:    Mask texture.
+			- specular:        Specularity.
+			- metallic:        Metallic factor (must be between 0 and 1).
+			- smoothness:      Smoothness factor (must be between 0 and 1).
+		</documentation>
+	</annotation>
+	<complexType name="terrainentitylayer">
+		<sequence>
+            <element name="diffuse-texture" type="string" minOccurs="1" maxOccurs="1"></element>
+			<element name="normal-texture" type="string" minOccurs="1" maxOccurs="1"></element>
+			<element name="mask-texture" type="string" minOccurs="1" maxOccurs="1"></element>
+            <element name="specular" type="string" minOccurs="1" maxOccurs="1"></element>
+			<element name="metallic" type="float" minOccurs="1" maxOccurs="1"></element>
+			<element name="smoothness" type="float" minOccurs="1" maxOccurs="1"></element>
+        </sequence>
 	</complexType>
 
 	<annotation>
