@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace="http://www.fivesqd.com/schemas/veml/1.1"
+<schema targetNamespace="http://www.fivesqd.com/schemas/veml/1.2"
     elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:vem="http://www.fivesqd.com/schemas/veml/1.1">
+    xmlns:vem="http://www.fivesqd.com/schemas/veml/1.2">
 	
 	<annotation>
 		<documentation>
@@ -324,6 +324,25 @@
 				<sequence>
 
 				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			An HTML entity. Inherits all elements and attributes from entity and includes:
+			- url: URL to load in the HTML entity.
+			- on-message: Logic to invoke when a message is received.
+		</documentation>
+	</annotation>
+	<complexType name="htmlentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+
+				</sequence>
+				<attribute name="url" type="string" use="optional"></attribute>
+				<attribute name="on-message" type="string" use="optional"></attribute>
 			</extension>
 		</complexContent>
 	</complexType>
