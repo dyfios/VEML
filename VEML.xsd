@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace="http://www.fivesqd.com/schemas/veml/1.2"
+<schema targetNamespace="http://www.fivesqd.com/schemas/veml/1.3"
     elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:vem="http://www.fivesqd.com/schemas/veml/1.2">
+    xmlns:vem="http://www.fivesqd.com/schemas/veml/1.3">
 	
 	<annotation>
 		<documentation>
@@ -301,13 +301,23 @@
 	<annotation>
 		<documentation>
 			A character entity. Inherits all elements and attributes from entity.
+			Elements:
+			- mesh-name:     Name of the top-level mesh.
+			- mesh-resource: A list of files containing mesh resources to load for the mesh.
+			- mesh-offset:   Offset for the character's mesh.
+			- mesh-rotation: Rotation for the character's mesh.
+			- label-offset:  Offset for the character entity's label.
 		</documentation>
 	</annotation>
 	<complexType name="characterentity">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
-					
+					<element name="mesh-name" type="string" minOccurs="0" maxOccurs="1"></element>
+					<element name="mesh-resource" type="string" minOccurs="0" maxOccurs="unbounded"></element>
+					<element name="mesh-offset" type="vem:position" minOccurs="0" maxOccurs="1"></element>
+					<element name="mesh-rotation" type="vem:rotation" minOccurs="0" maxOccurs="1"></element>
+					<element name="label-offset" type="vem:position" minOccurs="0" maxOccurs="1"></element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -505,6 +515,7 @@
 			
 			Metadata:
 			- title:                  Title for the world.
+			- capability:             Capability needed for the world.
 			- script:                 Scripts to be run in the world.
 			- inputevent:             Input events for the world.
 			- synchronizationservice: Synchronization services for the world.
@@ -521,6 +532,7 @@
                     <complexType>
                         <sequence>
                             <element name="title" minOccurs="1" maxOccurs="1" type="string"></element>
+							<element name="capability" minOccurs="0" maxOccurs="unbounded" type="string"></element>
                             <element name="script" minOccurs="0" maxOccurs="unbounded" type="string"></element>
 							<element name="inputevent" minOccurs="0" maxOccurs="unbounded" type="vem:inputevent"></element>
 							<element name="synchronizationservice" minOccurs="0" maxOccurs="unbounded" type="vem:synchronizationservice"></element>
