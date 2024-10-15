@@ -20,8 +20,8 @@ using System.Xml.Serialization;
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3", IsNullable=false)]
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+[System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0", IsNullable=false)]
 public partial class veml {
     
     private vemlMetadata metadataField;
@@ -54,7 +54,7 @@ public partial class veml {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class vemlMetadata {
     
     private string titleField;
@@ -127,7 +127,7 @@ public partial class vemlMetadata {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class inputevent {
     
     private string inputField;
@@ -162,7 +162,7 @@ public partial class inputevent {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class terrainentitylayer {
     
     private string diffusetextureField;
@@ -246,7 +246,7 @@ public partial class terrainentitylayer {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class placementsocket {
     
     private position positionField;
@@ -292,7 +292,7 @@ public partial class placementsocket {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class position {
     
     private double xField;
@@ -349,7 +349,7 @@ public partial class position {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class rotation {
     
     private double xField;
@@ -421,7 +421,7 @@ public partial class rotation {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(TypeName="size-percent", Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(TypeName="size-percent", Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class sizepercent {
     
     private double xField;
@@ -463,7 +463,7 @@ public partial class sizepercent {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(TypeName="position-percent", Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(TypeName="position-percent", Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class positionpercent {
     
     private double xField;
@@ -505,7 +505,7 @@ public partial class positionpercent {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class size {
     
     private double xField;
@@ -562,7 +562,7 @@ public partial class size {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class scale {
     
     private double xField;
@@ -622,7 +622,7 @@ public partial class scale {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class basetransform {
 }
 
@@ -631,7 +631,7 @@ public partial class basetransform {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class canvastransform : basetransform {
     
     private positionpercent positionpercentField;
@@ -666,7 +666,7 @@ public partial class canvastransform : basetransform {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class sizetransform : basetransform {
     
     private position positionField;
@@ -711,7 +711,7 @@ public partial class sizetransform : basetransform {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class scaletransform : basetransform {
     
     private position positionField;
@@ -756,18 +756,31 @@ public partial class scaletransform : basetransform {
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(textentity))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(terrainentity))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(lightentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(imageentity))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(inputentity))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(buttonentity))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(htmlentity))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(canvasentity))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(characterentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(archmeshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(prismmeshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(tetrahedronmeshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(rectangularpyramidmeshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(conemeshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(torusmeshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(planemeshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(cylindermeshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(capsulemeshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(spheremeshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(cubemeshentity))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(meshentity))]
+[System.Xml.Serialization.XmlIncludeAttribute(typeof(audioentity))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(containerentity))]
 [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class entity {
     
     private basetransform transformField;
@@ -865,7 +878,7 @@ public partial class entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class voxelentity : entity {
 }
 
@@ -874,7 +887,7 @@ public partial class voxelentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class textentity : entity {
     
     private string textField;
@@ -909,7 +922,7 @@ public partial class textentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class terrainentity : entity {
     
     private terrainentitylayer[] layerField;
@@ -1014,7 +1027,7 @@ public partial class terrainentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class lightentity : entity {
 }
 
@@ -1023,7 +1036,29 @@ public partial class lightentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class imageentity : entity {
+    
+    private string imagefileField;
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute("image-file")]
+    public string imagefile {
+        get {
+            return this.imagefileField;
+        }
+        set {
+            this.imagefileField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class inputentity : entity {
 }
 
@@ -1032,7 +1067,7 @@ public partial class inputentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class buttonentity : entity {
     
     private string onclickeventField;
@@ -1054,7 +1089,7 @@ public partial class buttonentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class htmlentity : entity {
     
     private string urlField;
@@ -1089,7 +1124,7 @@ public partial class htmlentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class canvasentity : entity {
 }
 
@@ -1098,7 +1133,7 @@ public partial class canvasentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class characterentity : entity {
     
     private string meshnameField;
@@ -1172,7 +1207,238 @@ public partial class characterentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class archmeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class prismmeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class tetrahedronmeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class rectangularpyramidmeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class conemeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class torusmeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class planemeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class cylindermeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class capsulemeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class spheremeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class cubemeshentity : entity {
+    
+    private string colorField;
+    
+    /// <remarks/>
+    public string color {
+        get {
+            return this.colorField;
+        }
+        set {
+            this.colorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class meshentity : entity {
     
     private string meshnameField;
@@ -1207,7 +1473,112 @@ public partial class meshentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
+public partial class audioentity : entity {
+    
+    private string audiofileField;
+    
+    private bool autoplayField;
+    
+    private bool loopField;
+    
+    private int priorityField;
+    
+    private float volumeField;
+    
+    private float pitchField;
+    
+    private float stereopanField;
+    
+    public audioentity() {
+        this.autoplayField = true;
+        this.loopField = true;
+        this.priorityField = 0;
+        this.volumeField = ((float)(1F));
+        this.pitchField = ((float)(0F));
+        this.stereopanField = ((float)(0F));
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute("audio-file")]
+    public string audiofile {
+        get {
+            return this.audiofileField;
+        }
+        set {
+            this.audiofileField = value;
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute("auto-play")]
+    public bool autoplay {
+        get {
+            return this.autoplayField;
+        }
+        set {
+            this.autoplayField = value;
+        }
+    }
+    
+    /// <remarks/>
+    public bool loop {
+        get {
+            return this.loopField;
+        }
+        set {
+            this.loopField = value;
+        }
+    }
+    
+    /// <remarks/>
+    public int priority {
+        get {
+            return this.priorityField;
+        }
+        set {
+            this.priorityField = value;
+        }
+    }
+    
+    /// <remarks/>
+    public float volume {
+        get {
+            return this.volumeField;
+        }
+        set {
+            this.volumeField = value;
+        }
+    }
+    
+    /// <remarks/>
+    public float pitch {
+        get {
+            return this.pitchField;
+        }
+        set {
+            this.pitchField = value;
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute("stereo-pan")]
+    public float stereopan {
+        get {
+            return this.stereopanField;
+        }
+        set {
+            this.stereopanField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
+[System.SerializableAttribute()]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class containerentity : entity {
 }
 
@@ -1216,7 +1587,7 @@ public partial class containerentity : entity {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class background {
     
     private string itemField;
@@ -1251,7 +1622,7 @@ public partial class background {
 /// <remarks/>
 [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0")]
 [System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3", IncludeInSchema=false)]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0", IncludeInSchema=false)]
 public enum ItemChoiceType {
     
     /// <remarks/>
@@ -1266,7 +1637,7 @@ public enum ItemChoiceType {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class synchronizationservice {
     
     private string typeField;
@@ -1327,7 +1698,7 @@ public partial class synchronizationservice {
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/1.3")]
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.0")]
 public partial class vemlEnvironment {
     
     private background backgroundField;

@@ -18,7 +18,7 @@ import System.Xml.Serialization;
 //
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/1.3") System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3", IsNullable=false) 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.0") System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0", IsNullable=false) 
 class veml {
     
     private var metadataField : vemlMetadata;
@@ -43,7 +43,7 @@ class veml {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class vemlMetadata {
     
     private var titleField : System.String;
@@ -102,7 +102,7 @@ class vemlMetadata {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class inputevent {
     
     private var inputField : System.String;
@@ -129,7 +129,7 @@ class inputevent {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class terrainentitylayer {
     
     private var diffusetextureField : System.String;
@@ -197,7 +197,7 @@ class terrainentitylayer {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class placementsocket {
     
     private var positionField : position;
@@ -233,7 +233,7 @@ class placementsocket {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class position {
     
     private var xField : double;
@@ -278,7 +278,7 @@ class position {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class rotation {
     
     private var xField : double;
@@ -335,7 +335,7 @@ class rotation {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(TypeName="size-percent", Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(TypeName="size-percent", Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class sizepercent {
     
     private var xField : double;
@@ -368,7 +368,7 @@ class sizepercent {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(TypeName="position-percent", Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(TypeName="position-percent", Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class positionpercent {
     
     private var xField : double;
@@ -401,7 +401,7 @@ class positionpercent {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class size {
     
     private var xField : double;
@@ -446,7 +446,7 @@ class size {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class scale {
     
     private var xField : double;
@@ -491,12 +491,12 @@ class scale {
 }
 
 ///<remarks/>
-public System.Xml.Serialization.XmlIncludeAttribute(canvastransform) System.Xml.Serialization.XmlIncludeAttribute(sizetransform) System.Xml.Serialization.XmlIncludeAttribute(scaletransform) System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.Xml.Serialization.XmlIncludeAttribute(canvastransform) System.Xml.Serialization.XmlIncludeAttribute(sizetransform) System.Xml.Serialization.XmlIncludeAttribute(scaletransform) System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class basetransform {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class canvastransform extends basetransform {
     
     private var positionpercentField : positionpercent;
@@ -523,7 +523,7 @@ class canvastransform extends basetransform {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class sizetransform extends basetransform {
     
     private var positionField : position;
@@ -558,7 +558,7 @@ class sizetransform extends basetransform {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class scaletransform extends basetransform {
     
     private var positionField : position;
@@ -593,7 +593,7 @@ class scaletransform extends basetransform {
 }
 
 ///<remarks/>
-public System.Xml.Serialization.XmlIncludeAttribute(voxelentity) System.Xml.Serialization.XmlIncludeAttribute(textentity) System.Xml.Serialization.XmlIncludeAttribute(terrainentity) System.Xml.Serialization.XmlIncludeAttribute(lightentity) System.Xml.Serialization.XmlIncludeAttribute(inputentity) System.Xml.Serialization.XmlIncludeAttribute(buttonentity) System.Xml.Serialization.XmlIncludeAttribute(htmlentity) System.Xml.Serialization.XmlIncludeAttribute(canvasentity) System.Xml.Serialization.XmlIncludeAttribute(characterentity) System.Xml.Serialization.XmlIncludeAttribute(meshentity) System.Xml.Serialization.XmlIncludeAttribute(containerentity) System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.Xml.Serialization.XmlIncludeAttribute(voxelentity) System.Xml.Serialization.XmlIncludeAttribute(textentity) System.Xml.Serialization.XmlIncludeAttribute(terrainentity) System.Xml.Serialization.XmlIncludeAttribute(lightentity) System.Xml.Serialization.XmlIncludeAttribute(imageentity) System.Xml.Serialization.XmlIncludeAttribute(inputentity) System.Xml.Serialization.XmlIncludeAttribute(buttonentity) System.Xml.Serialization.XmlIncludeAttribute(htmlentity) System.Xml.Serialization.XmlIncludeAttribute(canvasentity) System.Xml.Serialization.XmlIncludeAttribute(characterentity) System.Xml.Serialization.XmlIncludeAttribute(archmeshentity) System.Xml.Serialization.XmlIncludeAttribute(prismmeshentity) System.Xml.Serialization.XmlIncludeAttribute(tetrahedronmeshentity) System.Xml.Serialization.XmlIncludeAttribute(rectangularpyramidmeshentity) System.Xml.Serialization.XmlIncludeAttribute(conemeshentity) System.Xml.Serialization.XmlIncludeAttribute(torusmeshentity) System.Xml.Serialization.XmlIncludeAttribute(planemeshentity) System.Xml.Serialization.XmlIncludeAttribute(cylindermeshentity) System.Xml.Serialization.XmlIncludeAttribute(capsulemeshentity) System.Xml.Serialization.XmlIncludeAttribute(spheremeshentity) System.Xml.Serialization.XmlIncludeAttribute(cubemeshentity) System.Xml.Serialization.XmlIncludeAttribute(meshentity) System.Xml.Serialization.XmlIncludeAttribute(audioentity) System.Xml.Serialization.XmlIncludeAttribute(containerentity) System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class entity {
     
     private var transformField : basetransform;
@@ -673,12 +673,12 @@ class entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class voxelentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class textentity extends entity {
     
     private var textField : System.String;
@@ -705,7 +705,7 @@ class textentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class terrainentity extends entity {
     
     private var layerField : terrainentitylayer[];
@@ -792,17 +792,33 @@ class terrainentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class lightentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class imageentity extends entity {
+    
+    private var imagefileField : System.String;
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlElementAttribute("image-file") 
+    function get imagefile() : System.String {
+        return this.imagefileField;
+    }
+    public final function set imagefile(value : System.String) {
+        this.imagefileField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class inputentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class buttonentity extends entity {
     
     private var onclickeventField : System.String;
@@ -818,7 +834,7 @@ class buttonentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class htmlentity extends entity {
     
     private var urlField : System.String;
@@ -845,12 +861,12 @@ class htmlentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class canvasentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class characterentity extends entity {
     
     private var meshnameField : System.String;
@@ -910,7 +926,172 @@ class characterentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class archmeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class prismmeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class tetrahedronmeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class rectangularpyramidmeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class conemeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class torusmeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class planemeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class cylindermeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class capsulemeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class spheremeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class cubemeshentity extends entity {
+    
+    private var colorField : System.String;
+    
+    ///<remarks/>
+    public final function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class meshentity extends entity {
     
     private var meshnameField : System.String;
@@ -937,12 +1118,100 @@ class meshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
+class audioentity extends entity {
+    
+    private var audiofileField : System.String;
+    
+    private var autoplayField : boolean;
+    
+    private var loopField : boolean;
+    
+    private var priorityField : int;
+    
+    private var volumeField : float;
+    
+    private var pitchField : float;
+    
+    private var stereopanField : float;
+    
+    public function audioentity() {
+        this.autoplayField = true;
+        this.loopField = true;
+        this.priorityField = 0;
+        this.volumeField = float(float(1));
+        this.pitchField = float(float(0));
+        this.stereopanField = float(float(0));
+        
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlElementAttribute("audio-file") 
+    function get audiofile() : System.String {
+        return this.audiofileField;
+    }
+    public final function set audiofile(value : System.String) {
+        this.audiofileField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlElementAttribute("auto-play") 
+    function get autoplay() : boolean {
+        return this.autoplayField;
+    }
+    public final function set autoplay(value : boolean) {
+        this.autoplayField = value;
+    }
+    
+    ///<remarks/>
+    public final function get loop() : boolean {
+        return this.loopField;
+    }
+    public final function set loop(value : boolean) {
+        this.loopField = value;
+    }
+    
+    ///<remarks/>
+    public final function get priority() : int {
+        return this.priorityField;
+    }
+    public final function set priority(value : int) {
+        this.priorityField = value;
+    }
+    
+    ///<remarks/>
+    public final function get volume() : float {
+        return this.volumeField;
+    }
+    public final function set volume(value : float) {
+        this.volumeField = value;
+    }
+    
+    ///<remarks/>
+    public final function get pitch() : float {
+        return this.pitchField;
+    }
+    public final function set pitch(value : float) {
+        this.pitchField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlElementAttribute("stereo-pan") 
+    function get stereopan() : float {
+        return this.stereopanField;
+    }
+    public final function set stereopan(value : float) {
+        this.stereopanField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class containerentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class background {
     
     private var itemField : System.String;
@@ -969,7 +1238,7 @@ class background {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3", IncludeInSchema=false) 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0", IncludeInSchema=false) 
 enum ItemChoiceType {
     
     ///<remarks/>
@@ -980,7 +1249,7 @@ enum ItemChoiceType {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class synchronizationservice {
     
     private var typeField : System.String;
@@ -1029,7 +1298,7 @@ class synchronizationservice {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/1.3") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.0") 
 class vemlEnvironment {
     
     private var backgroundField : background;
