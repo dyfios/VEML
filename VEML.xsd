@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace="http://www.fivesqd.com/schemas/veml/1.3"
+<schema targetNamespace="http://www.fivesqd.com/schemas/veml/2.1"
     elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:vem="http://www.fivesqd.com/schemas/veml/1.3">
+    xmlns:vem="http://www.fivesqd.com/schemas/veml/2.1">
 	
 	<annotation>
 		<documentation>
@@ -57,6 +57,27 @@
 	<complexType name="inputevent">
         <attribute name="input" type="string"></attribute>
 		<attribute name="event" type="string"></attribute>
+    </complexType>
+
+    <annotation>
+        <documentation>
+            A set of control flags. These flags configure controls that are enabled/disabled.
+        </documentation>
+    </annotation>
+    <complexType name="controlflags">
+        <sequence>
+            <element name="left-vr-pointer" type="string" minOccurs="0" maxOccurs="1"></element>
+            <element name="right-vr-pointer" type="string" minOccurs="0" maxOccurs="1"></element>
+            <element name="left-vr-poker" type="boolean" minOccurs="0" maxOccurs="1"></element>
+            <element name="right-vr-poker" type="boolean" minOccurs="0" maxOccurs="1"></element>
+            <element name="left-hand-interaction" type="boolean" minOccurs="0" maxOccurs="1"></element>
+            <element name="right-hand-interaction" type="boolean" minOccurs="0" maxOccurs="1"></element>
+            <element name="turn-locomotion" type="string" minOccurs="0" maxOccurs="1"></element>
+            <element name="joystick-motion" type="boolean" minOccurs="0" maxOccurs="1"></element>
+            <element name="left-grab-move" type="boolean" minOccurs="0" maxOccurs="1"></element>
+            <element name="right-grab-move" type="boolean" minOccurs="0" maxOccurs="1"></element>
+            <element name="two-handed-grab-move" type="boolean" minOccurs="0" maxOccurs="1"></element>
+        </sequence>
     </complexType>
 
 	<annotation>
@@ -279,6 +300,36 @@
         </complexContent>
     </complexType>
 
+    <annotation>
+		<documentation>
+			An audio entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- audio-file: Audio file from which to get the audio entity's audio.
+			- auto-play:  Whether or not to auto-play the audio.
+            - loop:       Whether or not to loop the audio.
+			- priority:   Priority for the audio. Values between 0 and 256, with 0 being highest priority.
+			- volume:     Volume for the audio. Values between 0 and 1, with 1 being highest volume.
+			- pitch:      Pitch for the audio. Values between -3 and 3.
+			- stereo-pan: Audio pan for the audio if playing in stereo. Values between -1 and 1, with -1
+                          being furthest to the left and 1 being furthest to the right.
+		</documentation>
+	</annotation>
+    <complexType name="audioentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="audio-file" type="string" minOccurs="1" maxOccurs="1"></element>
+					<element name="auto-play" type="boolean" default="true"></element>
+                    <element name="loop" type="boolean" default="true"></element>
+					<element name="priority" type="int" default="0"></element>
+					<element name="volume" type="float" default="1"></element>
+					<element name="pitch" type="float" default="0"></element>
+					<element name="stereo-pan" type="float" default="0"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
 	<annotation>
 		<documentation>
 			A mesh entity. Inherits all elements and attributes from entity and includes:
@@ -293,6 +344,193 @@
                 <sequence>
                     <element name="mesh-name" type="string" minOccurs="1" maxOccurs="1"></element>
 					<element name="mesh-resource" type="string" minOccurs="1" maxOccurs="unbounded"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A cube mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the cube mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="cubemeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A sphere mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the sphere mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="spheremeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A capsule mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the capsule mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="capsulemeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A cylinder mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the cylinder mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="cylindermeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A plane mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the plane mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="planemeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A torus mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the torus mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="torusmeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A cone mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the cone mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="conemeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A rectangular pyramid mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the rectangular pyramid mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="rectangularpyramidmeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A tetrahedron mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the tetrahedron mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="tetrahedronmeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A prism mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the prism mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="prismmeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+	
+	<annotation>
+		<documentation>
+			A arch mesh entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- color: Color to give the arch mesh entity.
+		</documentation>
+	</annotation>
+    <complexType name="archmeshentity">
+        <complexContent>
+            <extension base="vem:entity">
+                <sequence>
+                    <element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
                 </sequence>
             </extension>
         </complexContent>
@@ -389,6 +627,25 @@
 			<extension base="vem:entity">
 				<sequence>
 
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+    <annotation>
+		<documentation>
+			An image entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- image-file: Image file from which to get the image entity's image.
+
+			Note: Must be placed within a Canvas Entity.
+		</documentation>
+	</annotation>
+	<complexType name="imageentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+                    <element name="image-file" type="string" minOccurs="1" maxOccurs="1"></element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -506,6 +763,62 @@
 			</extension>
 		</complexContent>
 	</complexType>
+	
+	<annotation>
+		<documentation>
+			A water entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- shallow-color:    Color for the shallow zone.
+			- deep-color:       Color for the deep zone.
+			- specular-color:   Specular color.
+			- scattering-color: Scattering color.
+			- deep-start:       Start of the deep zone..
+			- deep-end:         End of the deep zone.
+			- distortion:       Distortion factor (must be between 0 and 128).
+			- smoothness:       Smoothness factor (must be between 0 and 1).
+			- num-waves:        Number of waves (must be between 1 and 32).
+			- wave-amplitude:   Wave amplitude (must be between 0 and 1).
+			- wave-steepness:   Wave steepness (must be between 0 and 1).
+			- wave-speed:       Wave speed.
+			- wave-length:      Wave length.
+		</documentation>
+	</annotation>
+	<complexType name="waterentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+					<element name="shallow-color" type="string" minOccurs="1" maxOccurs="1"></element>
+					<element name="deep-color" type="string" minOccurs="1" maxOccurs="1"></element>
+					<element name="specular-color" type="string" minOccurs="1" maxOccurs="1"></element>
+					<element name="scattering-color" type="string" minOccurs="1" maxOccurs="1"></element>
+					<element name="deep-start" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="deep-end" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="distortion" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="smoothness" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="num-waves" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="wave-amplitude" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="wave-steepness" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="wave-speed" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="wave-length" type="float" minOccurs="1" maxOccurs="1"></element>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	
+	<annotation>
+		<documentation>
+			A water entity. Inherits all elements and attributes from entity.
+		</documentation>
+	</annotation>
+	<complexType name="waterblockerentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+					
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
 
 	<annotation>
 		<documentation>
@@ -518,6 +831,7 @@
 			- capability:             Capability needed for the world.
 			- script:                 Scripts to be run in the world.
 			- inputevent:             Input events for the world.
+            - controlflags:           Control flags for the world.
 			- synchronizationservice: Synchronization services for the world.
 			
 			Environment:
@@ -535,6 +849,7 @@
 							<element name="capability" minOccurs="0" maxOccurs="unbounded" type="string"></element>
                             <element name="script" minOccurs="0" maxOccurs="unbounded" type="string"></element>
 							<element name="inputevent" minOccurs="0" maxOccurs="unbounded" type="vem:inputevent"></element>
+							<element name="controlflags" minOccurs="0" maxOccurs="1" type="vem:controlflags"></element>
 							<element name="synchronizationservice" minOccurs="0" maxOccurs="unbounded" type="vem:synchronizationservice"></element>
                         </sequence>
                     </complexType>
