@@ -22,8 +22,8 @@ Imports System.Xml.Serialization
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.1"),  _
- System.Xml.Serialization.XmlRootAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1", IsNullable:=false)>  _
+ System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.2"),  _
+ System.Xml.Serialization.XmlRootAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2", IsNullable:=false)>  _
 Partial Public Class veml
     
     Private metadataField As vemlMetadata
@@ -56,7 +56,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class vemlMetadata
     
     Private titleField As String
@@ -141,7 +141,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class inputevent
     
     Private inputField As String
@@ -176,7 +176,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class terrainentitylayer
     
     Private diffusetextureField As String
@@ -260,7 +260,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class placementsocket
     
     Private positionField As position
@@ -306,7 +306,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class position
     
     Private xField As Double
@@ -364,7 +364,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class rotation
     
     Private xField As Double
@@ -437,7 +437,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute(TypeName:="size-percent", [Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute(TypeName:="size-percent", [Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class sizepercent
     
     Private xField As Double
@@ -480,7 +480,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute(TypeName:="position-percent", [Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute(TypeName:="position-percent", [Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class positionpercent
     
     Private xField As Double
@@ -523,7 +523,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class size
     
     Private xField As Double
@@ -581,7 +581,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class scale
     
     Private xField As Double
@@ -642,7 +642,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class basetransform
 End Class
 
@@ -651,7 +651,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class canvastransform
     Inherits basetransform
     
@@ -687,7 +687,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class sizetransform
     Inherits basetransform
     
@@ -733,7 +733,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class scaletransform
     Inherits basetransform
     
@@ -805,7 +805,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class entity
     
     Private transformField As basetransform
@@ -903,7 +903,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class waterblockerentity
     Inherits entity
 End Class
@@ -913,7 +913,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class waterentity
     Inherits entity
     
@@ -942,6 +942,10 @@ Partial Public Class waterentity
     Private wavespeedField As Single
     
     Private wavelengthField As Single
+    
+    Private wavescaleField As Single
+    
+    Private waveintensityField As Single
     
     '''<remarks/>
     <System.Xml.Serialization.XmlElementAttribute("shallow-color")>  _
@@ -1083,6 +1087,28 @@ Partial Public Class waterentity
             Me.wavelengthField = value
         End Set
     End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlElementAttribute("wave-scale")>  _
+    Public Property wavescale() As Single
+        Get
+            Return Me.wavescaleField
+        End Get
+        Set
+            Me.wavescaleField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlElementAttribute("wave-intensity")>  _
+    Public Property waveintensity() As Single
+        Get
+            Return Me.waveintensityField
+        End Get
+        Set
+            Me.waveintensityField = value
+        End Set
+    End Property
 End Class
 
 '''<remarks/>
@@ -1090,7 +1116,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class voxelentity
     Inherits entity
 End Class
@@ -1100,7 +1126,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class textentity
     Inherits entity
     
@@ -1136,7 +1162,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class terrainentity
     Inherits entity
     
@@ -1243,7 +1269,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class lightentity
     Inherits entity
 End Class
@@ -1253,7 +1279,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class imageentity
     Inherits entity
     
@@ -1276,7 +1302,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class inputentity
     Inherits entity
 End Class
@@ -1286,7 +1312,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class buttonentity
     Inherits entity
     
@@ -1309,7 +1335,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class htmlentity
     Inherits entity
     
@@ -1345,7 +1371,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class canvasentity
     Inherits entity
 End Class
@@ -1355,7 +1381,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class characterentity
     Inherits entity
     
@@ -1430,7 +1456,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class archmeshentity
     Inherits entity
     
@@ -1452,7 +1478,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class prismmeshentity
     Inherits entity
     
@@ -1474,7 +1500,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class tetrahedronmeshentity
     Inherits entity
     
@@ -1496,7 +1522,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class rectangularpyramidmeshentity
     Inherits entity
     
@@ -1518,7 +1544,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class conemeshentity
     Inherits entity
     
@@ -1540,7 +1566,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class torusmeshentity
     Inherits entity
     
@@ -1562,7 +1588,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class planemeshentity
     Inherits entity
     
@@ -1584,7 +1610,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class cylindermeshentity
     Inherits entity
     
@@ -1606,7 +1632,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class capsulemeshentity
     Inherits entity
     
@@ -1628,7 +1654,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class spheremeshentity
     Inherits entity
     
@@ -1650,7 +1676,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class cubemeshentity
     Inherits entity
     
@@ -1672,7 +1698,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class meshentity
     Inherits entity
     
@@ -1708,7 +1734,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class audioentity
     Inherits entity
     
@@ -1815,7 +1841,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class containerentity
     Inherits entity
 End Class
@@ -1825,7 +1851,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class background
     
     Private itemField As String
@@ -1860,7 +1886,7 @@ End Class
 '''<remarks/>
 <System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0"),  _
  System.SerializableAttribute(),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1", IncludeInSchema:=false)>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2", IncludeInSchema:=false)>  _
 Public Enum ItemChoiceType
     
     '''<remarks/>
@@ -1875,7 +1901,7 @@ End Enum
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class synchronizationservice
     
     Private typeField As String
@@ -1936,7 +1962,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class controlflags
     
     Private leftvrpointerField As String
@@ -2192,7 +2218,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.1")>  _
+ System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
 Partial Public Class vemlEnvironment
     
     Private backgroundField As background
