@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace="http://www.fivesqd.com/schemas/veml/2.1"
+<schema targetNamespace="http://www.fivesqd.com/schemas/veml/2.2"
     elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:vem="http://www.fivesqd.com/schemas/veml/2.1">
+    xmlns:vem="http://www.fivesqd.com/schemas/veml/2.2">
 	
 	<annotation>
 		<documentation>
@@ -772,7 +772,7 @@
 			- deep-color:       Color for the deep zone.
 			- specular-color:   Specular color.
 			- scattering-color: Scattering color.
-			- deep-start:       Start of the deep zone..
+			- deep-start:       Start of the deep zone.
 			- deep-end:         End of the deep zone.
 			- distortion:       Distortion factor (must be between 0 and 128).
 			- smoothness:       Smoothness factor (must be between 0 and 1).
@@ -781,6 +781,8 @@
 			- wave-steepness:   Wave steepness (must be between 0 and 1).
 			- wave-speed:       Wave speed.
 			- wave-length:      Wave length.
+			- wave-scale:       Wave scale.
+			- wave-intensity:   Wave intensity.
 		</documentation>
 	</annotation>
 	<complexType name="waterentity">
@@ -800,6 +802,8 @@
 					<element name="wave-steepness" type="float" minOccurs="1" maxOccurs="1"></element>
 					<element name="wave-speed" type="float" minOccurs="1" maxOccurs="1"></element>
 					<element name="wave-length" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="wave-scale" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="wave-intensity" type="float" minOccurs="1" maxOccurs="1"></element>
 				</sequence>
 			</extension>
 		</complexContent>
