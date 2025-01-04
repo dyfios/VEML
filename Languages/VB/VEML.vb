@@ -22,8 +22,8 @@ Imports System.Xml.Serialization
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.2"),  _
- System.Xml.Serialization.XmlRootAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2", IsNullable:=false)>  _
+ System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.3"),  _
+ System.Xml.Serialization.XmlRootAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3", IsNullable:=false)>  _
 Partial Public Class veml
     
     Private metadataField As vemlMetadata
@@ -56,7 +56,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class vemlMetadata
     
     Private titleField As String
@@ -141,7 +141,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class inputevent
     
     Private inputField As String
@@ -176,7 +176,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class terrainentitylayer
     
     Private diffusetextureField As String
@@ -260,7 +260,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class placementsocket
     
     Private positionField As position
@@ -306,7 +306,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class position
     
     Private xField As Double
@@ -364,7 +364,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class rotation
     
     Private xField As Double
@@ -437,7 +437,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute(TypeName:="size-percent", [Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute(TypeName:="size-percent", [Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class sizepercent
     
     Private xField As Double
@@ -480,7 +480,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute(TypeName:="position-percent", [Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute(TypeName:="position-percent", [Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class positionpercent
     
     Private xField As Double
@@ -523,7 +523,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class size
     
     Private xField As Double
@@ -581,7 +581,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class scale
     
     Private xField As Double
@@ -642,7 +642,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class basetransform
 End Class
 
@@ -651,7 +651,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class canvastransform
     Inherits basetransform
     
@@ -687,7 +687,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class sizetransform
     Inherits basetransform
     
@@ -733,7 +733,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class scaletransform
     Inherits basetransform
     
@@ -805,7 +805,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class entity
     
     Private transformField As basetransform
@@ -903,7 +903,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class waterblockerentity
     Inherits entity
 End Class
@@ -913,7 +913,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class waterentity
     Inherits entity
     
@@ -1116,7 +1116,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class voxelentity
     Inherits entity
 End Class
@@ -1126,7 +1126,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class textentity
     Inherits entity
     
@@ -1162,7 +1162,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class terrainentity
     Inherits entity
     
@@ -1269,7 +1269,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class lightentity
     Inherits entity
 End Class
@@ -1279,7 +1279,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class imageentity
     Inherits entity
     
@@ -1302,7 +1302,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class inputentity
     Inherits entity
 End Class
@@ -1312,7 +1312,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class buttonentity
     Inherits entity
     
@@ -1335,7 +1335,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class htmlentity
     Inherits entity
     
@@ -1371,7 +1371,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class canvasentity
     Inherits entity
 End Class
@@ -1381,7 +1381,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class characterentity
     Inherits entity
     
@@ -1456,7 +1456,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class archmeshentity
     Inherits entity
     
@@ -1478,7 +1478,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class prismmeshentity
     Inherits entity
     
@@ -1500,7 +1500,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class tetrahedronmeshentity
     Inherits entity
     
@@ -1522,7 +1522,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class rectangularpyramidmeshentity
     Inherits entity
     
@@ -1544,7 +1544,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class conemeshentity
     Inherits entity
     
@@ -1566,7 +1566,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class torusmeshentity
     Inherits entity
     
@@ -1588,7 +1588,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class planemeshentity
     Inherits entity
     
@@ -1610,7 +1610,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class cylindermeshentity
     Inherits entity
     
@@ -1632,7 +1632,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class capsulemeshentity
     Inherits entity
     
@@ -1654,7 +1654,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class spheremeshentity
     Inherits entity
     
@@ -1676,7 +1676,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class cubemeshentity
     Inherits entity
     
@@ -1698,7 +1698,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class meshentity
     Inherits entity
     
@@ -1734,7 +1734,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class audioentity
     Inherits entity
     
@@ -1841,7 +1841,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class containerentity
     Inherits entity
 End Class
@@ -1851,18 +1851,961 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute(TypeName:="lite-fog-settings", [Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
+Partial Public Class litefogsettings
+    
+    Private enabledField As Boolean
+    
+    Private colorField As String
+    
+    Private densityField As Single
+    
+    Public Sub New()
+        MyBase.New
+        Me.enabledField = false
+        Me.colorField = "gray"
+        Me.densityField = CType(0.5!,Single)
+    End Sub
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute(),  _
+     System.ComponentModel.DefaultValueAttribute(false)>  _
+    Public Property enabled() As Boolean
+        Get
+            Return Me.enabledField
+        End Get
+        Set
+            Me.enabledField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute(),  _
+     System.ComponentModel.DefaultValueAttribute("gray")>  _
+    Public Property color() As String
+        Get
+            Return Me.colorField
+        End Get
+        Set
+            Me.colorField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute(),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.5")>  _
+    Public Property density() As Single
+        Get
+            Return Me.densityField
+        End Get
+        Set
+            Me.densityField = value
+        End Set
+    End Property
+End Class
+
+'''<remarks/>
+<System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0"),  _
+ System.SerializableAttribute(),  _
+ System.Diagnostics.DebuggerStepThroughAttribute(),  _
+ System.ComponentModel.DesignerCategoryAttribute("code"),  _
+ System.Xml.Serialization.XmlTypeAttribute(TypeName:="effects-settings", [Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
+Partial Public Class effectssettings
+    
+    Private litefogField As litefogsettings
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlElementAttribute("lite-fog")>  _
+    Public Property litefog() As litefogsettings
+        Get
+            Return Me.litefogField
+        End Get
+        Set
+            Me.litefogField = value
+        End Set
+    End Property
+End Class
+
+'''<remarks/>
+<System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0"),  _
+ System.SerializableAttribute(),  _
+ System.Diagnostics.DebuggerStepThroughAttribute(),  _
+ System.ComponentModel.DesignerCategoryAttribute("code"),  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
+Partial Public Class liteproceduralsky
+    
+    Private sunentitytagField As String
+    
+    Private daynightcycleenabledField As Boolean
+    
+    Private groundenabledField As Boolean
+    
+    Private groundcolorField As String
+    
+    Private groundheightField As Single
+    
+    Private groundfadeamountField As Single
+    
+    Private horizonskyblendField As Single
+    
+    Private dayhorizoncolorField As String
+    
+    Private dayskycolorField As String
+    
+    Private nighthorizoncolorField As String
+    
+    Private nightskycolorField As String
+    
+    Private horizonsaturationamountField As Single
+    
+    Private horizonsaturationfalloffField As Single
+    
+    Private sunenabledField As Boolean
+    
+    Private sundiameterField As Single
+    
+    Private sunhorizoncolorField As String
+    
+    Private sunzenithcolorField As String
+    
+    Private sunskylightingenabledField As Boolean
+    
+    Private skylightingfalloffamountField As Single
+    
+    Private skylightingfalloffintensityField As Single
+    
+    Private sunsetintensityField As Single
+    
+    Private sunsetradialfalloffField As Single
+    
+    Private sunsethorizontalfalloffField As Single
+    
+    Private sunsetverticalfalloffField As Single
+    
+    Private moonenabledField As Boolean
+    
+    Private moondiameterField As Single
+    
+    Private mooncolorField As String
+    
+    Private moonfalloffamountField As Single
+    
+    Private starsenabledField As Boolean
+    
+    Private starsbrightnessField As Single
+    
+    Private starsdaytimebrightnessField As Single
+    
+    Private starshorizonfalloffField As Single
+    
+    Private starssaturationField As Single
+    
+    Private proceduralstarsenabledField As Boolean
+    
+    Private proceduralstarssharpnessField As Single
+    
+    Private proceduralstarsamountField As Single
+    
+    Private starstextureenabledField As Boolean
+    
+    Private startextureuriField As String
+    
+    Private startintField As String
+    
+    Private starscaleField As Single
+    
+    Private starrotationspeedField As Single
+    
+    Private cloudsenabledField As Boolean
+    
+    Private cloudstextureuriField As String
+    
+    Private cloudsscalexField As Single
+    
+    Private cloudsscaleyField As Single
+    
+    Private cloudsspeedxField As Single
+    
+    Private cloudsspeedyField As Single
+    
+    Private cloudinessField As Single
+    
+    Private cloudsopacityField As Single
+    
+    Private cloudssharpnessField As Single
+    
+    Private cloudsshadingintensityField As Single
+    
+    Private cloudszenithfalloffField As Single
+    
+    Private cloudsiterationsField As Integer
+    
+    Private cloudsgainField As Single
+    
+    Private cloudslacunarityField As Integer
+    
+    Private cloudsdaycolorField As String
+    
+    Private cloudsnightcolorField As String
+    
+    Public Sub New()
+        MyBase.New
+        Me.daynightcycleenabledField = true
+        Me.groundenabledField = true
+        Me.groundcolorField = "#07070700"
+        Me.groundheightField = CType(-0.02!,Single)
+        Me.groundfadeamountField = CType(0.02!,Single)
+        Me.horizonskyblendField = CType(0.579!,Single)
+        Me.dayhorizoncolorField = "#448bc5ff"
+        Me.dayskycolorField = "#08124100"
+        Me.nighthorizoncolorField = "#07050d00"
+        Me.nightskycolorField = "03010300"
+        Me.horizonsaturationamountField = CType(0.894!,Single)
+        Me.horizonsaturationfalloffField = CType(4.45!,Single)
+        Me.sunenabledField = true
+        Me.sundiameterField = CType(2!,Single)
+        Me.sunhorizoncolorField = "color(155 72 33 0)"
+        Me.sunzenithcolorField = "color(158 129 58 0)"
+        Me.sunskylightingenabledField = true
+        Me.skylightingfalloffamountField = CType(10!,Single)
+        Me.skylightingfalloffintensityField = CType(1!,Single)
+        Me.sunsetintensityField = CType(0.3!,Single)
+        Me.sunsetradialfalloffField = CType(0.1!,Single)
+        Me.sunsethorizontalfalloffField = CType(0.6!,Single)
+        Me.sunsetverticalfalloffField = CType(0.5!,Single)
+        Me.moonenabledField = true
+        Me.moondiameterField = CType(2!,Single)
+        Me.mooncolorField = "#abb9bf00"
+        Me.moonfalloffamountField = CType(60!,Single)
+        Me.starsenabledField = true
+        Me.starsbrightnessField = CType(0.85!,Single)
+        Me.starsdaytimebrightnessField = CType(0.1!,Single)
+        Me.starshorizonfalloffField = CType(0!,Single)
+        Me.starssaturationField = CType(0.3!,Single)
+        Me.proceduralstarsenabledField = true
+        Me.proceduralstarssharpnessField = CType(1!,Single)
+        Me.proceduralstarsamountField = CType(1!,Single)
+        Me.starstextureenabledField = true
+        Me.startintField = "#ffffff00"
+        Me.starscaleField = CType(0.5!,Single)
+        Me.starrotationspeedField = CType(0.25!,Single)
+        Me.cloudsenabledField = true
+        Me.cloudsscalexField = CType(2!,Single)
+        Me.cloudsscaleyField = CType(1!,Single)
+        Me.cloudsspeedxField = CType(0.2!,Single)
+        Me.cloudsspeedyField = CType(0.3!,Single)
+        Me.cloudinessField = CType(0.279!,Single)
+        Me.cloudsopacityField = CType(1!,Single)
+        Me.cloudssharpnessField = CType(0.8!,Single)
+        Me.cloudsshadingintensityField = CType(0.8!,Single)
+        Me.cloudszenithfalloffField = CType(0.339!,Single)
+        Me.cloudsiterationsField = 3
+        Me.cloudsgainField = CType(0.5!,Single)
+        Me.cloudslacunarityField = 2
+        Me.cloudsdaycolorField = "#d7dde7"
+        Me.cloudsnightcolorField = "#7d616f"
+    End Sub
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sun-entity-tag")>  _
+    Public Property sunentitytag() As String
+        Get
+            Return Me.sunentitytagField
+        End Get
+        Set
+            Me.sunentitytagField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("day-night-cycle-enabled"),  _
+     System.ComponentModel.DefaultValueAttribute(true)>  _
+    Public Property daynightcycleenabled() As Boolean
+        Get
+            Return Me.daynightcycleenabledField
+        End Get
+        Set
+            Me.daynightcycleenabledField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("ground-enabled"),  _
+     System.ComponentModel.DefaultValueAttribute(true)>  _
+    Public Property groundenabled() As Boolean
+        Get
+            Return Me.groundenabledField
+        End Get
+        Set
+            Me.groundenabledField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("ground-color"),  _
+     System.ComponentModel.DefaultValueAttribute("#07070700")>  _
+    Public Property groundcolor() As String
+        Get
+            Return Me.groundcolorField
+        End Get
+        Set
+            Me.groundcolorField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("ground-height"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "-0.02")>  _
+    Public Property groundheight() As Single
+        Get
+            Return Me.groundheightField
+        End Get
+        Set
+            Me.groundheightField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("ground-fade-amount"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.02")>  _
+    Public Property groundfadeamount() As Single
+        Get
+            Return Me.groundfadeamountField
+        End Get
+        Set
+            Me.groundfadeamountField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("horizon-sky-blend"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.579")>  _
+    Public Property horizonskyblend() As Single
+        Get
+            Return Me.horizonskyblendField
+        End Get
+        Set
+            Me.horizonskyblendField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("day-horizon-color"),  _
+     System.ComponentModel.DefaultValueAttribute("#448bc5ff")>  _
+    Public Property dayhorizoncolor() As String
+        Get
+            Return Me.dayhorizoncolorField
+        End Get
+        Set
+            Me.dayhorizoncolorField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("day-sky-color"),  _
+     System.ComponentModel.DefaultValueAttribute("#08124100")>  _
+    Public Property dayskycolor() As String
+        Get
+            Return Me.dayskycolorField
+        End Get
+        Set
+            Me.dayskycolorField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("night-horizon-color"),  _
+     System.ComponentModel.DefaultValueAttribute("#07050d00")>  _
+    Public Property nighthorizoncolor() As String
+        Get
+            Return Me.nighthorizoncolorField
+        End Get
+        Set
+            Me.nighthorizoncolorField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("night-sky-color"),  _
+     System.ComponentModel.DefaultValueAttribute("03010300")>  _
+    Public Property nightskycolor() As String
+        Get
+            Return Me.nightskycolorField
+        End Get
+        Set
+            Me.nightskycolorField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("horizon-saturation-amount"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.894")>  _
+    Public Property horizonsaturationamount() As Single
+        Get
+            Return Me.horizonsaturationamountField
+        End Get
+        Set
+            Me.horizonsaturationamountField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("horizon-saturation-falloff"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "4.45")>  _
+    Public Property horizonsaturationfalloff() As Single
+        Get
+            Return Me.horizonsaturationfalloffField
+        End Get
+        Set
+            Me.horizonsaturationfalloffField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sun-enabled"),  _
+     System.ComponentModel.DefaultValueAttribute(true)>  _
+    Public Property sunenabled() As Boolean
+        Get
+            Return Me.sunenabledField
+        End Get
+        Set
+            Me.sunenabledField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sun-diameter"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "2")>  _
+    Public Property sundiameter() As Single
+        Get
+            Return Me.sundiameterField
+        End Get
+        Set
+            Me.sundiameterField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sun-horizon-color"),  _
+     System.ComponentModel.DefaultValueAttribute("color(155 72 33 0)")>  _
+    Public Property sunhorizoncolor() As String
+        Get
+            Return Me.sunhorizoncolorField
+        End Get
+        Set
+            Me.sunhorizoncolorField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sun-zenith-color"),  _
+     System.ComponentModel.DefaultValueAttribute("color(158 129 58 0)")>  _
+    Public Property sunzenithcolor() As String
+        Get
+            Return Me.sunzenithcolorField
+        End Get
+        Set
+            Me.sunzenithcolorField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sun-sky-lighting-enabled"),  _
+     System.ComponentModel.DefaultValueAttribute(true)>  _
+    Public Property sunskylightingenabled() As Boolean
+        Get
+            Return Me.sunskylightingenabledField
+        End Get
+        Set
+            Me.sunskylightingenabledField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sky-lighting-falloff-amount"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "10")>  _
+    Public Property skylightingfalloffamount() As Single
+        Get
+            Return Me.skylightingfalloffamountField
+        End Get
+        Set
+            Me.skylightingfalloffamountField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sky-lighting-falloff-intensity"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "1")>  _
+    Public Property skylightingfalloffintensity() As Single
+        Get
+            Return Me.skylightingfalloffintensityField
+        End Get
+        Set
+            Me.skylightingfalloffintensityField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sunset-intensity"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.3")>  _
+    Public Property sunsetintensity() As Single
+        Get
+            Return Me.sunsetintensityField
+        End Get
+        Set
+            Me.sunsetintensityField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sunset-radial-falloff"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.1")>  _
+    Public Property sunsetradialfalloff() As Single
+        Get
+            Return Me.sunsetradialfalloffField
+        End Get
+        Set
+            Me.sunsetradialfalloffField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sunset-horizontal-falloff"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.6")>  _
+    Public Property sunsethorizontalfalloff() As Single
+        Get
+            Return Me.sunsethorizontalfalloffField
+        End Get
+        Set
+            Me.sunsethorizontalfalloffField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("sunset-vertical-falloff"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.5")>  _
+    Public Property sunsetverticalfalloff() As Single
+        Get
+            Return Me.sunsetverticalfalloffField
+        End Get
+        Set
+            Me.sunsetverticalfalloffField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("moon-enabled"),  _
+     System.ComponentModel.DefaultValueAttribute(true)>  _
+    Public Property moonenabled() As Boolean
+        Get
+            Return Me.moonenabledField
+        End Get
+        Set
+            Me.moonenabledField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("moon-diameter"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "2")>  _
+    Public Property moondiameter() As Single
+        Get
+            Return Me.moondiameterField
+        End Get
+        Set
+            Me.moondiameterField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("moon-color"),  _
+     System.ComponentModel.DefaultValueAttribute("#abb9bf00")>  _
+    Public Property mooncolor() As String
+        Get
+            Return Me.mooncolorField
+        End Get
+        Set
+            Me.mooncolorField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("moon-falloff-amount"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "60")>  _
+    Public Property moonfalloffamount() As Single
+        Get
+            Return Me.moonfalloffamountField
+        End Get
+        Set
+            Me.moonfalloffamountField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("stars-enabled"),  _
+     System.ComponentModel.DefaultValueAttribute(true)>  _
+    Public Property starsenabled() As Boolean
+        Get
+            Return Me.starsenabledField
+        End Get
+        Set
+            Me.starsenabledField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("stars-brightness"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.85")>  _
+    Public Property starsbrightness() As Single
+        Get
+            Return Me.starsbrightnessField
+        End Get
+        Set
+            Me.starsbrightnessField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("stars-daytime-brightness"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.1")>  _
+    Public Property starsdaytimebrightness() As Single
+        Get
+            Return Me.starsdaytimebrightnessField
+        End Get
+        Set
+            Me.starsdaytimebrightnessField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("stars-horizon-falloff"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0")>  _
+    Public Property starshorizonfalloff() As Single
+        Get
+            Return Me.starshorizonfalloffField
+        End Get
+        Set
+            Me.starshorizonfalloffField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("stars-saturation"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.3")>  _
+    Public Property starssaturation() As Single
+        Get
+            Return Me.starssaturationField
+        End Get
+        Set
+            Me.starssaturationField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("procedural-stars-enabled"),  _
+     System.ComponentModel.DefaultValueAttribute(true)>  _
+    Public Property proceduralstarsenabled() As Boolean
+        Get
+            Return Me.proceduralstarsenabledField
+        End Get
+        Set
+            Me.proceduralstarsenabledField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("procedural-stars-sharpness"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "1")>  _
+    Public Property proceduralstarssharpness() As Single
+        Get
+            Return Me.proceduralstarssharpnessField
+        End Get
+        Set
+            Me.proceduralstarssharpnessField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("procedural-stars-amount"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "1")>  _
+    Public Property proceduralstarsamount() As Single
+        Get
+            Return Me.proceduralstarsamountField
+        End Get
+        Set
+            Me.proceduralstarsamountField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("stars-texture-enabled"),  _
+     System.ComponentModel.DefaultValueAttribute(true)>  _
+    Public Property starstextureenabled() As Boolean
+        Get
+            Return Me.starstextureenabledField
+        End Get
+        Set
+            Me.starstextureenabledField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("star-texture-uri")>  _
+    Public Property startextureuri() As String
+        Get
+            Return Me.startextureuriField
+        End Get
+        Set
+            Me.startextureuriField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("star-tint"),  _
+     System.ComponentModel.DefaultValueAttribute("#ffffff00")>  _
+    Public Property startint() As String
+        Get
+            Return Me.startintField
+        End Get
+        Set
+            Me.startintField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("star-scale"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.5")>  _
+    Public Property starscale() As Single
+        Get
+            Return Me.starscaleField
+        End Get
+        Set
+            Me.starscaleField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("star-rotation-speed"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.25")>  _
+    Public Property starrotationspeed() As Single
+        Get
+            Return Me.starrotationspeedField
+        End Get
+        Set
+            Me.starrotationspeedField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-enabled"),  _
+     System.ComponentModel.DefaultValueAttribute(true)>  _
+    Public Property cloudsenabled() As Boolean
+        Get
+            Return Me.cloudsenabledField
+        End Get
+        Set
+            Me.cloudsenabledField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-texture-uri")>  _
+    Public Property cloudstextureuri() As String
+        Get
+            Return Me.cloudstextureuriField
+        End Get
+        Set
+            Me.cloudstextureuriField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-scale-x"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "2")>  _
+    Public Property cloudsscalex() As Single
+        Get
+            Return Me.cloudsscalexField
+        End Get
+        Set
+            Me.cloudsscalexField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-scale-y"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "1")>  _
+    Public Property cloudsscaley() As Single
+        Get
+            Return Me.cloudsscaleyField
+        End Get
+        Set
+            Me.cloudsscaleyField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-speed-x"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.2")>  _
+    Public Property cloudsspeedx() As Single
+        Get
+            Return Me.cloudsspeedxField
+        End Get
+        Set
+            Me.cloudsspeedxField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-speed-y"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.3")>  _
+    Public Property cloudsspeedy() As Single
+        Get
+            Return Me.cloudsspeedyField
+        End Get
+        Set
+            Me.cloudsspeedyField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute(),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.279")>  _
+    Public Property cloudiness() As Single
+        Get
+            Return Me.cloudinessField
+        End Get
+        Set
+            Me.cloudinessField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-opacity"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "1")>  _
+    Public Property cloudsopacity() As Single
+        Get
+            Return Me.cloudsopacityField
+        End Get
+        Set
+            Me.cloudsopacityField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-sharpness"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.8")>  _
+    Public Property cloudssharpness() As Single
+        Get
+            Return Me.cloudssharpnessField
+        End Get
+        Set
+            Me.cloudssharpnessField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-shading-intensity"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.8")>  _
+    Public Property cloudsshadingintensity() As Single
+        Get
+            Return Me.cloudsshadingintensityField
+        End Get
+        Set
+            Me.cloudsshadingintensityField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-zenith-falloff"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.339")>  _
+    Public Property cloudszenithfalloff() As Single
+        Get
+            Return Me.cloudszenithfalloffField
+        End Get
+        Set
+            Me.cloudszenithfalloffField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-iterations"),  _
+     System.ComponentModel.DefaultValueAttribute(3)>  _
+    Public Property cloudsiterations() As Integer
+        Get
+            Return Me.cloudsiterationsField
+        End Get
+        Set
+            Me.cloudsiterationsField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-gain"),  _
+     System.ComponentModel.DefaultValueAttribute(GetType(Single), "0.5")>  _
+    Public Property cloudsgain() As Single
+        Get
+            Return Me.cloudsgainField
+        End Get
+        Set
+            Me.cloudsgainField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-lacunarity"),  _
+     System.ComponentModel.DefaultValueAttribute(2)>  _
+    Public Property cloudslacunarity() As Integer
+        Get
+            Return Me.cloudslacunarityField
+        End Get
+        Set
+            Me.cloudslacunarityField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-day-color"),  _
+     System.ComponentModel.DefaultValueAttribute("#d7dde7")>  _
+    Public Property cloudsdaycolor() As String
+        Get
+            Return Me.cloudsdaycolorField
+        End Get
+        Set
+            Me.cloudsdaycolorField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("clouds-night-color"),  _
+     System.ComponentModel.DefaultValueAttribute("#7d616f")>  _
+    Public Property cloudsnightcolor() As String
+        Get
+            Return Me.cloudsnightcolorField
+        End Get
+        Set
+            Me.cloudsnightcolorField = value
+        End Set
+    End Property
+End Class
+
+'''<remarks/>
+<System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0"),  _
+ System.SerializableAttribute(),  _
+ System.Diagnostics.DebuggerStepThroughAttribute(),  _
+ System.ComponentModel.DesignerCategoryAttribute("code"),  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class background
     
-    Private itemField As String
+    Private itemField As Object
     
     Private itemElementNameField As ItemChoiceType
     
     '''<remarks/>
     <System.Xml.Serialization.XmlElementAttribute("color", GetType(String)),  _
+     System.Xml.Serialization.XmlElementAttribute("lite-procedural-sky", GetType(liteproceduralsky)),  _
      System.Xml.Serialization.XmlElementAttribute("panorama", GetType(String)),  _
      System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemElementName")>  _
-    Public Property Item() As String
+    Public Property Item() As Object
         Get
             Return Me.itemField
         End Get
@@ -1886,11 +2829,15 @@ End Class
 '''<remarks/>
 <System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0"),  _
  System.SerializableAttribute(),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2", IncludeInSchema:=false)>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3", IncludeInSchema:=false)>  _
 Public Enum ItemChoiceType
     
     '''<remarks/>
     color
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlEnumAttribute("lite-procedural-sky")>  _
+    liteproceduralsky
     
     '''<remarks/>
     panorama
@@ -1901,7 +2848,7 @@ End Enum
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class synchronizationservice
     
     Private typeField As String
@@ -1962,7 +2909,7 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class controlflags
     
     Private leftvrpointerField As String
@@ -2218,10 +3165,12 @@ End Class
  System.SerializableAttribute(),  _
  System.Diagnostics.DebuggerStepThroughAttribute(),  _
  System.ComponentModel.DesignerCategoryAttribute("code"),  _
- System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.2")>  _
+ System.Xml.Serialization.XmlTypeAttribute(AnonymousType:=true, [Namespace]:="http://www.fivesqd.com/schemas/veml/2.3")>  _
 Partial Public Class vemlEnvironment
     
     Private backgroundField As background
+    
+    Private effectsField As effectssettings
     
     Private entityField() As entity
     
@@ -2232,6 +3181,16 @@ Partial Public Class vemlEnvironment
         End Get
         Set
             Me.backgroundField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    Public Property effects() As effectssettings
+        Get
+            Return Me.effectsField
+        End Get
+        Set
+            Me.effectsField = value
         End Set
     End Property
     

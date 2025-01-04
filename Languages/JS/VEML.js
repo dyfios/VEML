@@ -18,7 +18,7 @@ import System.Xml.Serialization;
 //
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.2") System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2", IsNullable=false) 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.3") System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3", IsNullable=false) 
 class veml {
     
     private var metadataField : vemlMetadata;
@@ -43,7 +43,7 @@ class veml {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class vemlMetadata {
     
     private var titleField : System.String;
@@ -112,7 +112,7 @@ class vemlMetadata {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class inputevent {
     
     private var inputField : System.String;
@@ -139,7 +139,7 @@ class inputevent {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class terrainentitylayer {
     
     private var diffusetextureField : System.String;
@@ -207,7 +207,7 @@ class terrainentitylayer {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class placementsocket {
     
     private var positionField : position;
@@ -243,7 +243,7 @@ class placementsocket {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class position {
     
     private var xField : double;
@@ -288,7 +288,7 @@ class position {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class rotation {
     
     private var xField : double;
@@ -345,7 +345,7 @@ class rotation {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(TypeName="size-percent", Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(TypeName="size-percent", Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class sizepercent {
     
     private var xField : double;
@@ -378,7 +378,7 @@ class sizepercent {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(TypeName="position-percent", Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(TypeName="position-percent", Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class positionpercent {
     
     private var xField : double;
@@ -411,7 +411,7 @@ class positionpercent {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class size {
     
     private var xField : double;
@@ -456,7 +456,7 @@ class size {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class scale {
     
     private var xField : double;
@@ -501,12 +501,12 @@ class scale {
 }
 
 ///<remarks/>
-public System.Xml.Serialization.XmlIncludeAttribute(canvastransform) System.Xml.Serialization.XmlIncludeAttribute(sizetransform) System.Xml.Serialization.XmlIncludeAttribute(scaletransform) System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.Xml.Serialization.XmlIncludeAttribute(canvastransform) System.Xml.Serialization.XmlIncludeAttribute(sizetransform) System.Xml.Serialization.XmlIncludeAttribute(scaletransform) System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class basetransform {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class canvastransform extends basetransform {
     
     private var positionpercentField : positionpercent;
@@ -533,7 +533,7 @@ class canvastransform extends basetransform {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class sizetransform extends basetransform {
     
     private var positionField : position;
@@ -568,7 +568,7 @@ class sizetransform extends basetransform {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class scaletransform extends basetransform {
     
     private var positionField : position;
@@ -603,7 +603,7 @@ class scaletransform extends basetransform {
 }
 
 ///<remarks/>
-public System.Xml.Serialization.XmlIncludeAttribute(waterblockerentity) System.Xml.Serialization.XmlIncludeAttribute(waterentity) System.Xml.Serialization.XmlIncludeAttribute(voxelentity) System.Xml.Serialization.XmlIncludeAttribute(textentity) System.Xml.Serialization.XmlIncludeAttribute(terrainentity) System.Xml.Serialization.XmlIncludeAttribute(lightentity) System.Xml.Serialization.XmlIncludeAttribute(imageentity) System.Xml.Serialization.XmlIncludeAttribute(inputentity) System.Xml.Serialization.XmlIncludeAttribute(buttonentity) System.Xml.Serialization.XmlIncludeAttribute(htmlentity) System.Xml.Serialization.XmlIncludeAttribute(canvasentity) System.Xml.Serialization.XmlIncludeAttribute(characterentity) System.Xml.Serialization.XmlIncludeAttribute(archmeshentity) System.Xml.Serialization.XmlIncludeAttribute(prismmeshentity) System.Xml.Serialization.XmlIncludeAttribute(tetrahedronmeshentity) System.Xml.Serialization.XmlIncludeAttribute(rectangularpyramidmeshentity) System.Xml.Serialization.XmlIncludeAttribute(conemeshentity) System.Xml.Serialization.XmlIncludeAttribute(torusmeshentity) System.Xml.Serialization.XmlIncludeAttribute(planemeshentity) System.Xml.Serialization.XmlIncludeAttribute(cylindermeshentity) System.Xml.Serialization.XmlIncludeAttribute(capsulemeshentity) System.Xml.Serialization.XmlIncludeAttribute(spheremeshentity) System.Xml.Serialization.XmlIncludeAttribute(cubemeshentity) System.Xml.Serialization.XmlIncludeAttribute(meshentity) System.Xml.Serialization.XmlIncludeAttribute(audioentity) System.Xml.Serialization.XmlIncludeAttribute(containerentity) System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.Xml.Serialization.XmlIncludeAttribute(waterblockerentity) System.Xml.Serialization.XmlIncludeAttribute(waterentity) System.Xml.Serialization.XmlIncludeAttribute(voxelentity) System.Xml.Serialization.XmlIncludeAttribute(textentity) System.Xml.Serialization.XmlIncludeAttribute(terrainentity) System.Xml.Serialization.XmlIncludeAttribute(lightentity) System.Xml.Serialization.XmlIncludeAttribute(imageentity) System.Xml.Serialization.XmlIncludeAttribute(inputentity) System.Xml.Serialization.XmlIncludeAttribute(buttonentity) System.Xml.Serialization.XmlIncludeAttribute(htmlentity) System.Xml.Serialization.XmlIncludeAttribute(canvasentity) System.Xml.Serialization.XmlIncludeAttribute(characterentity) System.Xml.Serialization.XmlIncludeAttribute(archmeshentity) System.Xml.Serialization.XmlIncludeAttribute(prismmeshentity) System.Xml.Serialization.XmlIncludeAttribute(tetrahedronmeshentity) System.Xml.Serialization.XmlIncludeAttribute(rectangularpyramidmeshentity) System.Xml.Serialization.XmlIncludeAttribute(conemeshentity) System.Xml.Serialization.XmlIncludeAttribute(torusmeshentity) System.Xml.Serialization.XmlIncludeAttribute(planemeshentity) System.Xml.Serialization.XmlIncludeAttribute(cylindermeshentity) System.Xml.Serialization.XmlIncludeAttribute(capsulemeshentity) System.Xml.Serialization.XmlIncludeAttribute(spheremeshentity) System.Xml.Serialization.XmlIncludeAttribute(cubemeshentity) System.Xml.Serialization.XmlIncludeAttribute(meshentity) System.Xml.Serialization.XmlIncludeAttribute(audioentity) System.Xml.Serialization.XmlIncludeAttribute(containerentity) System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class entity {
     
     private var transformField : basetransform;
@@ -683,12 +683,12 @@ class entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class waterblockerentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class waterentity extends entity {
     
     private var shallowcolorField : System.String;
@@ -856,12 +856,12 @@ class waterentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class voxelentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class textentity extends entity {
     
     private var textField : System.String;
@@ -888,7 +888,7 @@ class textentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class terrainentity extends entity {
     
     private var layerField : terrainentitylayer[];
@@ -975,12 +975,12 @@ class terrainentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class lightentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class imageentity extends entity {
     
     private var imagefileField : System.String;
@@ -996,12 +996,12 @@ class imageentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class inputentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class buttonentity extends entity {
     
     private var onclickeventField : System.String;
@@ -1017,7 +1017,7 @@ class buttonentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class htmlentity extends entity {
     
     private var urlField : System.String;
@@ -1044,12 +1044,12 @@ class htmlentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class canvasentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class characterentity extends entity {
     
     private var meshnameField : System.String;
@@ -1109,7 +1109,7 @@ class characterentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class archmeshentity extends entity {
     
     private var colorField : System.String;
@@ -1124,7 +1124,7 @@ class archmeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class prismmeshentity extends entity {
     
     private var colorField : System.String;
@@ -1139,7 +1139,7 @@ class prismmeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class tetrahedronmeshentity extends entity {
     
     private var colorField : System.String;
@@ -1154,7 +1154,7 @@ class tetrahedronmeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class rectangularpyramidmeshentity extends entity {
     
     private var colorField : System.String;
@@ -1169,7 +1169,7 @@ class rectangularpyramidmeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class conemeshentity extends entity {
     
     private var colorField : System.String;
@@ -1184,7 +1184,7 @@ class conemeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class torusmeshentity extends entity {
     
     private var colorField : System.String;
@@ -1199,7 +1199,7 @@ class torusmeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class planemeshentity extends entity {
     
     private var colorField : System.String;
@@ -1214,7 +1214,7 @@ class planemeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class cylindermeshentity extends entity {
     
     private var colorField : System.String;
@@ -1229,7 +1229,7 @@ class cylindermeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class capsulemeshentity extends entity {
     
     private var colorField : System.String;
@@ -1244,7 +1244,7 @@ class capsulemeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class spheremeshentity extends entity {
     
     private var colorField : System.String;
@@ -1259,7 +1259,7 @@ class spheremeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class cubemeshentity extends entity {
     
     private var colorField : System.String;
@@ -1274,7 +1274,7 @@ class cubemeshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class meshentity extends entity {
     
     private var meshnameField : System.String;
@@ -1301,7 +1301,7 @@ class meshentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class audioentity extends entity {
     
     private var audiofileField : System.String;
@@ -1389,24 +1389,775 @@ class audioentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class containerentity extends entity {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(TypeName="lite-fog-settings", Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
+class litefogsettings {
+    
+    private var enabledField : boolean;
+    
+    private var colorField : System.String;
+    
+    private var densityField : float;
+    
+    public function litefogsettings() {
+        this.enabledField = false;
+        this.colorField = "gray";
+        this.densityField = float(float(0.5));
+        
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute() System.ComponentModel.DefaultValueAttribute(false) 
+    function get enabled() : boolean {
+        return this.enabledField;
+    }
+    public final function set enabled(value : boolean) {
+        this.enabledField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute() System.ComponentModel.DefaultValueAttribute("gray") 
+    function get color() : System.String {
+        return this.colorField;
+    }
+    public final function set color(value : System.String) {
+        this.colorField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute() System.ComponentModel.DefaultValueAttribute(float, "0.5") 
+    function get density() : float {
+        return this.densityField;
+    }
+    public final function set density(value : float) {
+        this.densityField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(TypeName="effects-settings", Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
+class effectssettings {
+    
+    private var litefogField : litefogsettings;
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlElementAttribute("lite-fog") 
+    function get litefog() : litefogsettings {
+        return this.litefogField;
+    }
+    public final function set litefog(value : litefogsettings) {
+        this.litefogField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
+class liteproceduralsky {
+    
+    private var sunentitytagField : System.String;
+    
+    private var daynightcycleenabledField : boolean;
+    
+    private var groundenabledField : boolean;
+    
+    private var groundcolorField : System.String;
+    
+    private var groundheightField : float;
+    
+    private var groundfadeamountField : float;
+    
+    private var horizonskyblendField : float;
+    
+    private var dayhorizoncolorField : System.String;
+    
+    private var dayskycolorField : System.String;
+    
+    private var nighthorizoncolorField : System.String;
+    
+    private var nightskycolorField : System.String;
+    
+    private var horizonsaturationamountField : float;
+    
+    private var horizonsaturationfalloffField : float;
+    
+    private var sunenabledField : boolean;
+    
+    private var sundiameterField : float;
+    
+    private var sunhorizoncolorField : System.String;
+    
+    private var sunzenithcolorField : System.String;
+    
+    private var sunskylightingenabledField : boolean;
+    
+    private var skylightingfalloffamountField : float;
+    
+    private var skylightingfalloffintensityField : float;
+    
+    private var sunsetintensityField : float;
+    
+    private var sunsetradialfalloffField : float;
+    
+    private var sunsethorizontalfalloffField : float;
+    
+    private var sunsetverticalfalloffField : float;
+    
+    private var moonenabledField : boolean;
+    
+    private var moondiameterField : float;
+    
+    private var mooncolorField : System.String;
+    
+    private var moonfalloffamountField : float;
+    
+    private var starsenabledField : boolean;
+    
+    private var starsbrightnessField : float;
+    
+    private var starsdaytimebrightnessField : float;
+    
+    private var starshorizonfalloffField : float;
+    
+    private var starssaturationField : float;
+    
+    private var proceduralstarsenabledField : boolean;
+    
+    private var proceduralstarssharpnessField : float;
+    
+    private var proceduralstarsamountField : float;
+    
+    private var starstextureenabledField : boolean;
+    
+    private var startextureuriField : System.String;
+    
+    private var startintField : System.String;
+    
+    private var starscaleField : float;
+    
+    private var starrotationspeedField : float;
+    
+    private var cloudsenabledField : boolean;
+    
+    private var cloudstextureuriField : System.String;
+    
+    private var cloudsscalexField : float;
+    
+    private var cloudsscaleyField : float;
+    
+    private var cloudsspeedxField : float;
+    
+    private var cloudsspeedyField : float;
+    
+    private var cloudinessField : float;
+    
+    private var cloudsopacityField : float;
+    
+    private var cloudssharpnessField : float;
+    
+    private var cloudsshadingintensityField : float;
+    
+    private var cloudszenithfalloffField : float;
+    
+    private var cloudsiterationsField : int;
+    
+    private var cloudsgainField : float;
+    
+    private var cloudslacunarityField : int;
+    
+    private var cloudsdaycolorField : System.String;
+    
+    private var cloudsnightcolorField : System.String;
+    
+    public function liteproceduralsky() {
+        this.daynightcycleenabledField = true;
+        this.groundenabledField = true;
+        this.groundcolorField = "#07070700";
+        this.groundheightField = float(float(-0.02));
+        this.groundfadeamountField = float(float(0.02));
+        this.horizonskyblendField = float(float(0.579));
+        this.dayhorizoncolorField = "#448bc5ff";
+        this.dayskycolorField = "#08124100";
+        this.nighthorizoncolorField = "#07050d00";
+        this.nightskycolorField = "03010300";
+        this.horizonsaturationamountField = float(float(0.894));
+        this.horizonsaturationfalloffField = float(float(4.45));
+        this.sunenabledField = true;
+        this.sundiameterField = float(float(2));
+        this.sunhorizoncolorField = "color(155 72 33 0)";
+        this.sunzenithcolorField = "color(158 129 58 0)";
+        this.sunskylightingenabledField = true;
+        this.skylightingfalloffamountField = float(float(10));
+        this.skylightingfalloffintensityField = float(float(1));
+        this.sunsetintensityField = float(float(0.3));
+        this.sunsetradialfalloffField = float(float(0.1));
+        this.sunsethorizontalfalloffField = float(float(0.6));
+        this.sunsetverticalfalloffField = float(float(0.5));
+        this.moonenabledField = true;
+        this.moondiameterField = float(float(2));
+        this.mooncolorField = "#abb9bf00";
+        this.moonfalloffamountField = float(float(60));
+        this.starsenabledField = true;
+        this.starsbrightnessField = float(float(0.85));
+        this.starsdaytimebrightnessField = float(float(0.1));
+        this.starshorizonfalloffField = float(float(0));
+        this.starssaturationField = float(float(0.3));
+        this.proceduralstarsenabledField = true;
+        this.proceduralstarssharpnessField = float(float(1));
+        this.proceduralstarsamountField = float(float(1));
+        this.starstextureenabledField = true;
+        this.startintField = "#ffffff00";
+        this.starscaleField = float(float(0.5));
+        this.starrotationspeedField = float(float(0.25));
+        this.cloudsenabledField = true;
+        this.cloudsscalexField = float(float(2));
+        this.cloudsscaleyField = float(float(1));
+        this.cloudsspeedxField = float(float(0.2));
+        this.cloudsspeedyField = float(float(0.3));
+        this.cloudinessField = float(float(0.279));
+        this.cloudsopacityField = float(float(1));
+        this.cloudssharpnessField = float(float(0.8));
+        this.cloudsshadingintensityField = float(float(0.8));
+        this.cloudszenithfalloffField = float(float(0.339));
+        this.cloudsiterationsField = 3;
+        this.cloudsgainField = float(float(0.5));
+        this.cloudslacunarityField = 2;
+        this.cloudsdaycolorField = "#d7dde7";
+        this.cloudsnightcolorField = "#7d616f";
+        
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sun-entity-tag") 
+    function get sunentitytag() : System.String {
+        return this.sunentitytagField;
+    }
+    public final function set sunentitytag(value : System.String) {
+        this.sunentitytagField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("day-night-cycle-enabled") System.ComponentModel.DefaultValueAttribute(true) 
+    function get daynightcycleenabled() : boolean {
+        return this.daynightcycleenabledField;
+    }
+    public final function set daynightcycleenabled(value : boolean) {
+        this.daynightcycleenabledField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("ground-enabled") System.ComponentModel.DefaultValueAttribute(true) 
+    function get groundenabled() : boolean {
+        return this.groundenabledField;
+    }
+    public final function set groundenabled(value : boolean) {
+        this.groundenabledField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("ground-color") System.ComponentModel.DefaultValueAttribute("#07070700") 
+    function get groundcolor() : System.String {
+        return this.groundcolorField;
+    }
+    public final function set groundcolor(value : System.String) {
+        this.groundcolorField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("ground-height") System.ComponentModel.DefaultValueAttribute(float, "-0.02") 
+    function get groundheight() : float {
+        return this.groundheightField;
+    }
+    public final function set groundheight(value : float) {
+        this.groundheightField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("ground-fade-amount") System.ComponentModel.DefaultValueAttribute(float, "0.02") 
+    function get groundfadeamount() : float {
+        return this.groundfadeamountField;
+    }
+    public final function set groundfadeamount(value : float) {
+        this.groundfadeamountField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("horizon-sky-blend") System.ComponentModel.DefaultValueAttribute(float, "0.579") 
+    function get horizonskyblend() : float {
+        return this.horizonskyblendField;
+    }
+    public final function set horizonskyblend(value : float) {
+        this.horizonskyblendField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("day-horizon-color") System.ComponentModel.DefaultValueAttribute("#448bc5ff") 
+    function get dayhorizoncolor() : System.String {
+        return this.dayhorizoncolorField;
+    }
+    public final function set dayhorizoncolor(value : System.String) {
+        this.dayhorizoncolorField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("day-sky-color") System.ComponentModel.DefaultValueAttribute("#08124100") 
+    function get dayskycolor() : System.String {
+        return this.dayskycolorField;
+    }
+    public final function set dayskycolor(value : System.String) {
+        this.dayskycolorField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("night-horizon-color") System.ComponentModel.DefaultValueAttribute("#07050d00") 
+    function get nighthorizoncolor() : System.String {
+        return this.nighthorizoncolorField;
+    }
+    public final function set nighthorizoncolor(value : System.String) {
+        this.nighthorizoncolorField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("night-sky-color") System.ComponentModel.DefaultValueAttribute("03010300") 
+    function get nightskycolor() : System.String {
+        return this.nightskycolorField;
+    }
+    public final function set nightskycolor(value : System.String) {
+        this.nightskycolorField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("horizon-saturation-amount") System.ComponentModel.DefaultValueAttribute(float, "0.894") 
+    function get horizonsaturationamount() : float {
+        return this.horizonsaturationamountField;
+    }
+    public final function set horizonsaturationamount(value : float) {
+        this.horizonsaturationamountField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("horizon-saturation-falloff") System.ComponentModel.DefaultValueAttribute(float, "4.45") 
+    function get horizonsaturationfalloff() : float {
+        return this.horizonsaturationfalloffField;
+    }
+    public final function set horizonsaturationfalloff(value : float) {
+        this.horizonsaturationfalloffField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sun-enabled") System.ComponentModel.DefaultValueAttribute(true) 
+    function get sunenabled() : boolean {
+        return this.sunenabledField;
+    }
+    public final function set sunenabled(value : boolean) {
+        this.sunenabledField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sun-diameter") System.ComponentModel.DefaultValueAttribute(float, "2") 
+    function get sundiameter() : float {
+        return this.sundiameterField;
+    }
+    public final function set sundiameter(value : float) {
+        this.sundiameterField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sun-horizon-color") System.ComponentModel.DefaultValueAttribute("color(155 72 33 0)") 
+    function get sunhorizoncolor() : System.String {
+        return this.sunhorizoncolorField;
+    }
+    public final function set sunhorizoncolor(value : System.String) {
+        this.sunhorizoncolorField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sun-zenith-color") System.ComponentModel.DefaultValueAttribute("color(158 129 58 0)") 
+    function get sunzenithcolor() : System.String {
+        return this.sunzenithcolorField;
+    }
+    public final function set sunzenithcolor(value : System.String) {
+        this.sunzenithcolorField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sun-sky-lighting-enabled") System.ComponentModel.DefaultValueAttribute(true) 
+    function get sunskylightingenabled() : boolean {
+        return this.sunskylightingenabledField;
+    }
+    public final function set sunskylightingenabled(value : boolean) {
+        this.sunskylightingenabledField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sky-lighting-falloff-amount") System.ComponentModel.DefaultValueAttribute(float, "10") 
+    function get skylightingfalloffamount() : float {
+        return this.skylightingfalloffamountField;
+    }
+    public final function set skylightingfalloffamount(value : float) {
+        this.skylightingfalloffamountField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sky-lighting-falloff-intensity") System.ComponentModel.DefaultValueAttribute(float, "1") 
+    function get skylightingfalloffintensity() : float {
+        return this.skylightingfalloffintensityField;
+    }
+    public final function set skylightingfalloffintensity(value : float) {
+        this.skylightingfalloffintensityField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sunset-intensity") System.ComponentModel.DefaultValueAttribute(float, "0.3") 
+    function get sunsetintensity() : float {
+        return this.sunsetintensityField;
+    }
+    public final function set sunsetintensity(value : float) {
+        this.sunsetintensityField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sunset-radial-falloff") System.ComponentModel.DefaultValueAttribute(float, "0.1") 
+    function get sunsetradialfalloff() : float {
+        return this.sunsetradialfalloffField;
+    }
+    public final function set sunsetradialfalloff(value : float) {
+        this.sunsetradialfalloffField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sunset-horizontal-falloff") System.ComponentModel.DefaultValueAttribute(float, "0.6") 
+    function get sunsethorizontalfalloff() : float {
+        return this.sunsethorizontalfalloffField;
+    }
+    public final function set sunsethorizontalfalloff(value : float) {
+        this.sunsethorizontalfalloffField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("sunset-vertical-falloff") System.ComponentModel.DefaultValueAttribute(float, "0.5") 
+    function get sunsetverticalfalloff() : float {
+        return this.sunsetverticalfalloffField;
+    }
+    public final function set sunsetverticalfalloff(value : float) {
+        this.sunsetverticalfalloffField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("moon-enabled") System.ComponentModel.DefaultValueAttribute(true) 
+    function get moonenabled() : boolean {
+        return this.moonenabledField;
+    }
+    public final function set moonenabled(value : boolean) {
+        this.moonenabledField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("moon-diameter") System.ComponentModel.DefaultValueAttribute(float, "2") 
+    function get moondiameter() : float {
+        return this.moondiameterField;
+    }
+    public final function set moondiameter(value : float) {
+        this.moondiameterField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("moon-color") System.ComponentModel.DefaultValueAttribute("#abb9bf00") 
+    function get mooncolor() : System.String {
+        return this.mooncolorField;
+    }
+    public final function set mooncolor(value : System.String) {
+        this.mooncolorField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("moon-falloff-amount") System.ComponentModel.DefaultValueAttribute(float, "60") 
+    function get moonfalloffamount() : float {
+        return this.moonfalloffamountField;
+    }
+    public final function set moonfalloffamount(value : float) {
+        this.moonfalloffamountField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("stars-enabled") System.ComponentModel.DefaultValueAttribute(true) 
+    function get starsenabled() : boolean {
+        return this.starsenabledField;
+    }
+    public final function set starsenabled(value : boolean) {
+        this.starsenabledField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("stars-brightness") System.ComponentModel.DefaultValueAttribute(float, "0.85") 
+    function get starsbrightness() : float {
+        return this.starsbrightnessField;
+    }
+    public final function set starsbrightness(value : float) {
+        this.starsbrightnessField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("stars-daytime-brightness") System.ComponentModel.DefaultValueAttribute(float, "0.1") 
+    function get starsdaytimebrightness() : float {
+        return this.starsdaytimebrightnessField;
+    }
+    public final function set starsdaytimebrightness(value : float) {
+        this.starsdaytimebrightnessField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("stars-horizon-falloff") System.ComponentModel.DefaultValueAttribute(float, "0") 
+    function get starshorizonfalloff() : float {
+        return this.starshorizonfalloffField;
+    }
+    public final function set starshorizonfalloff(value : float) {
+        this.starshorizonfalloffField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("stars-saturation") System.ComponentModel.DefaultValueAttribute(float, "0.3") 
+    function get starssaturation() : float {
+        return this.starssaturationField;
+    }
+    public final function set starssaturation(value : float) {
+        this.starssaturationField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("procedural-stars-enabled") System.ComponentModel.DefaultValueAttribute(true) 
+    function get proceduralstarsenabled() : boolean {
+        return this.proceduralstarsenabledField;
+    }
+    public final function set proceduralstarsenabled(value : boolean) {
+        this.proceduralstarsenabledField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("procedural-stars-sharpness") System.ComponentModel.DefaultValueAttribute(float, "1") 
+    function get proceduralstarssharpness() : float {
+        return this.proceduralstarssharpnessField;
+    }
+    public final function set proceduralstarssharpness(value : float) {
+        this.proceduralstarssharpnessField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("procedural-stars-amount") System.ComponentModel.DefaultValueAttribute(float, "1") 
+    function get proceduralstarsamount() : float {
+        return this.proceduralstarsamountField;
+    }
+    public final function set proceduralstarsamount(value : float) {
+        this.proceduralstarsamountField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("stars-texture-enabled") System.ComponentModel.DefaultValueAttribute(true) 
+    function get starstextureenabled() : boolean {
+        return this.starstextureenabledField;
+    }
+    public final function set starstextureenabled(value : boolean) {
+        this.starstextureenabledField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("star-texture-uri") 
+    function get startextureuri() : System.String {
+        return this.startextureuriField;
+    }
+    public final function set startextureuri(value : System.String) {
+        this.startextureuriField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("star-tint") System.ComponentModel.DefaultValueAttribute("#ffffff00") 
+    function get startint() : System.String {
+        return this.startintField;
+    }
+    public final function set startint(value : System.String) {
+        this.startintField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("star-scale") System.ComponentModel.DefaultValueAttribute(float, "0.5") 
+    function get starscale() : float {
+        return this.starscaleField;
+    }
+    public final function set starscale(value : float) {
+        this.starscaleField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("star-rotation-speed") System.ComponentModel.DefaultValueAttribute(float, "0.25") 
+    function get starrotationspeed() : float {
+        return this.starrotationspeedField;
+    }
+    public final function set starrotationspeed(value : float) {
+        this.starrotationspeedField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-enabled") System.ComponentModel.DefaultValueAttribute(true) 
+    function get cloudsenabled() : boolean {
+        return this.cloudsenabledField;
+    }
+    public final function set cloudsenabled(value : boolean) {
+        this.cloudsenabledField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-texture-uri") 
+    function get cloudstextureuri() : System.String {
+        return this.cloudstextureuriField;
+    }
+    public final function set cloudstextureuri(value : System.String) {
+        this.cloudstextureuriField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-scale-x") System.ComponentModel.DefaultValueAttribute(float, "2") 
+    function get cloudsscalex() : float {
+        return this.cloudsscalexField;
+    }
+    public final function set cloudsscalex(value : float) {
+        this.cloudsscalexField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-scale-y") System.ComponentModel.DefaultValueAttribute(float, "1") 
+    function get cloudsscaley() : float {
+        return this.cloudsscaleyField;
+    }
+    public final function set cloudsscaley(value : float) {
+        this.cloudsscaleyField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-speed-x") System.ComponentModel.DefaultValueAttribute(float, "0.2") 
+    function get cloudsspeedx() : float {
+        return this.cloudsspeedxField;
+    }
+    public final function set cloudsspeedx(value : float) {
+        this.cloudsspeedxField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-speed-y") System.ComponentModel.DefaultValueAttribute(float, "0.3") 
+    function get cloudsspeedy() : float {
+        return this.cloudsspeedyField;
+    }
+    public final function set cloudsspeedy(value : float) {
+        this.cloudsspeedyField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute() System.ComponentModel.DefaultValueAttribute(float, "0.279") 
+    function get cloudiness() : float {
+        return this.cloudinessField;
+    }
+    public final function set cloudiness(value : float) {
+        this.cloudinessField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-opacity") System.ComponentModel.DefaultValueAttribute(float, "1") 
+    function get cloudsopacity() : float {
+        return this.cloudsopacityField;
+    }
+    public final function set cloudsopacity(value : float) {
+        this.cloudsopacityField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-sharpness") System.ComponentModel.DefaultValueAttribute(float, "0.8") 
+    function get cloudssharpness() : float {
+        return this.cloudssharpnessField;
+    }
+    public final function set cloudssharpness(value : float) {
+        this.cloudssharpnessField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-shading-intensity") System.ComponentModel.DefaultValueAttribute(float, "0.8") 
+    function get cloudsshadingintensity() : float {
+        return this.cloudsshadingintensityField;
+    }
+    public final function set cloudsshadingintensity(value : float) {
+        this.cloudsshadingintensityField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-zenith-falloff") System.ComponentModel.DefaultValueAttribute(float, "0.339") 
+    function get cloudszenithfalloff() : float {
+        return this.cloudszenithfalloffField;
+    }
+    public final function set cloudszenithfalloff(value : float) {
+        this.cloudszenithfalloffField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-iterations") System.ComponentModel.DefaultValueAttribute(3) 
+    function get cloudsiterations() : int {
+        return this.cloudsiterationsField;
+    }
+    public final function set cloudsiterations(value : int) {
+        this.cloudsiterationsField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-gain") System.ComponentModel.DefaultValueAttribute(float, "0.5") 
+    function get cloudsgain() : float {
+        return this.cloudsgainField;
+    }
+    public final function set cloudsgain(value : float) {
+        this.cloudsgainField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-lacunarity") System.ComponentModel.DefaultValueAttribute(2) 
+    function get cloudslacunarity() : int {
+        return this.cloudslacunarityField;
+    }
+    public final function set cloudslacunarity(value : int) {
+        this.cloudslacunarityField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-day-color") System.ComponentModel.DefaultValueAttribute("#d7dde7") 
+    function get cloudsdaycolor() : System.String {
+        return this.cloudsdaycolorField;
+    }
+    public final function set cloudsdaycolor(value : System.String) {
+        this.cloudsdaycolorField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("clouds-night-color") System.ComponentModel.DefaultValueAttribute("#7d616f") 
+    function get cloudsnightcolor() : System.String {
+        return this.cloudsnightcolorField;
+    }
+    public final function set cloudsnightcolor(value : System.String) {
+        this.cloudsnightcolorField = value;
+    }
+}
+
+///<remarks/>
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class background {
     
-    private var itemField : System.String;
+    private var itemField : System.Object;
     
     private var itemElementNameField : ItemChoiceType;
     
     ///<remarks/>
-    public final System.Xml.Serialization.XmlElementAttribute("color", System.String) System.Xml.Serialization.XmlElementAttribute("panorama", System.String) System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemElementName") 
-    function get Item() : System.String {
+    public final System.Xml.Serialization.XmlElementAttribute("color", System.String) System.Xml.Serialization.XmlElementAttribute("lite-procedural-sky", liteproceduralsky) System.Xml.Serialization.XmlElementAttribute("panorama", System.String) System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemElementName") 
+    function get Item() : System.Object {
         return this.itemField;
     }
-    public final function set Item(value : System.String) {
+    public final function set Item(value : System.Object) {
         this.itemField = value;
     }
     
@@ -1421,18 +2172,21 @@ class background {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2", IncludeInSchema=false) 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3", IncludeInSchema=false) 
 enum ItemChoiceType {
     
     ///<remarks/>
     color,
     
     ///<remarks/>
+    liteproceduralsky,
+    
+    ///<remarks/>
     panorama,
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class synchronizationservice {
     
     private var typeField : System.String;
@@ -1481,7 +2235,7 @@ class synchronizationservice {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class controlflags {
     
     private var leftvrpointerField : System.String;
@@ -1695,10 +2449,12 @@ class controlflags {
 }
 
 ///<remarks/>
-public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.2") 
+public System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.3928.0") System.SerializableAttribute() System.Diagnostics.DebuggerStepThroughAttribute() System.ComponentModel.DesignerCategoryAttribute("code") System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.fivesqd.com/schemas/veml/2.3") 
 class vemlEnvironment {
     
     private var backgroundField : background;
+    
+    private var effectsField : effectssettings;
     
     private var entityField : entity[];
     
@@ -1708,6 +2464,14 @@ class vemlEnvironment {
     }
     public final function set background(value : background) {
         this.backgroundField = value;
+    }
+    
+    ///<remarks/>
+    public final function get effects() : effectssettings {
+        return this.effectsField;
+    }
+    public final function set effects(value : effectssettings) {
+        this.effectsField = value;
     }
     
     ///<remarks/>
