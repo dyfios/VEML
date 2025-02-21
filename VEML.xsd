@@ -1,7 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace="http://www.fivesqd.com/schemas/veml/2.2"
+<schema targetNamespace="http://www.fivesqd.com/schemas/veml/2.3"
     elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:vem="http://www.fivesqd.com/schemas/veml/2.2">
+    xmlns:vem="http://www.fivesqd.com/schemas/veml/2.3">
+
+	<annotation>
+		<documentation>
+			Type for a lite procedural sky. It takes a variety of parameters used
+			in generating the procedural sky.
+
+			Attributes:
+			- sun-entity-tag:                 Tag of the entity to use for the sun
+			- day-night-cycle-enabled:        Whether or not to enable the day/night cycle
+			- ground-enabled:                 Whether or not to enable procedural ground
+			- ground-color:                   Color for the ground
+			- ground-height:                  Height to place ground at
+			- ground-fade-amount:             Factor for fade between ground and horizon
+			- horizon-sky-blend:              Blending factor between horizon and sky
+			- day-horizon-color:              Color for horizon during day
+			- day-sky-color:                  Color for sky during day
+			- night-horizon-color:            Color for horizon during night
+			- night-sky-color:                Color for sky during night
+			- horizon-saturation-amount:      Saturation amount for horizon
+			- horizon-saturation-falloff:     Saturation falloff for horizon
+			- sun-enabled:                    Whether or not to enable procedural sun
+			- sun-diameter:                   Diameter of sun
+			- sun-horizon-color:              Color of sun at horizon
+			- sun-zenith-color:               Color of sun at zenith
+			- sun-sky-lighting-enabled:       Whether or not to enable lighting of sky from sun
+			- sky-lighting-falloff-amount:    Falloff amount for sky lighting
+			- sky-lighting-falloff-intensity: Falloff intensity for sky lighting
+			- sunset-intensity:               Intensity of sunset
+			- sunset-radial-falloff:          Radial falloff of sunset
+			- sunset-horizontal-falloff:      Horizontal falloff of sunset
+			- sunset-vertical-falloff:        Vertical falloff of sunset
+			- moon-enabled:                   Whether or not to enable procedural moon
+			- moon-diameter:                  Diameter of moon
+			- moon-color:                     Color of moon
+			- moon-falloff-amount:            Falloff amount for moonlight
+			- stars-enabled:                  Whether or not to enable stars
+			- stars-brightness:               Brightness for stars
+			- stars-daytime-brightness:       Daytime brightness for stars
+			- stars-horizon-falloff:          Falloff for stars at horizon
+			- stars-saturation:               Saturation for stars
+			- procedural-stars-enabled:       Whether or not to enable procedural stars
+			- procedural-stars-sharpness:     Sharpness for procedural stars
+			- procedural-stars-amount:        Amount of procedural stars
+			- stars-texture-enabled:          Whether or not to enable star texture (overlaid on
+			                                  top of procedural stars)
+			- star-texture-uri:               URI to the texture for non-procedural stars
+			- star-tint:                      Tint for non-procedural stars
+			- star-scale:                     Scale for non-procedural stars
+			- star-rotation-speed:            Rotation speed for non-procedural stars
+			- clouds-enabled:                 Whether or not to enable procedural clouds
+			- clouds-texture-uri:             URI to texture for clouds
+			- clouds-scale-x:                 X component of scale for clouds
+			- clouds-scale-y:                 Y component of scale for clouds
+			- clouds-speed-x:                 X component of speed for clouds
+			- clouds-speed-y:                 Y component of speed for clouds
+			- cloudiness:                     Cloudiness level
+			- clouds-opacity:                 Cloud opacity level
+			- clouds-sharpness:               Cloud sharpness level
+			- clouds-shading-intensity:       Intensity of cloud shading
+			- clouds-zenith-falloff:          Falloff for clouds at zenith
+			- clouds-iterations:              Number of iterations for procedural clouds
+			- clouds-gain:                    Gain for procedural clouds
+			- clouds-lacunarity:              Lacunarity for procedural clouds
+			- clouds-day-color:               Color for clouds during day
+			- clouds-night-color:             Color for clouds during night
+		</documentation>
+	</annotation>
+	<complexType name="liteproceduralsky">
+		<attribute name="sun-entity-tag" type="string" use="optional"></attribute>
+		<attribute name="day-night-cycle-enabled" type="boolean" default="true"></attribute>
+		<attribute name="ground-enabled" type="boolean" default="true"></attribute>
+		<attribute name="ground-color" type="string" default="#07070700"></attribute>
+		<attribute name="ground-height" type="float" default="-0.02"></attribute>
+		<attribute name="ground-fade-amount" type="float" default="0.02"></attribute>
+		<attribute name="horizon-sky-blend" type="float" default="0.579"></attribute>
+		<attribute name="day-horizon-color" type="string" default="#448bc5ff"></attribute>
+		<attribute name="day-sky-color" type="string" default="#08124100"></attribute>
+		<attribute name="night-horizon-color" type="string" default="#07050d00"></attribute>
+		<attribute name="night-sky-color" type="string" default="03010300"></attribute>
+		<attribute name="horizon-saturation-amount" type="float" default="0.894"></attribute>
+		<attribute name="horizon-saturation-falloff" type="float" default="4.45"></attribute>
+		<attribute name="sun-enabled" type="boolean" default="true"></attribute>
+		<attribute name="sun-diameter" type="float" default="2"></attribute>
+		<attribute name="sun-horizon-color" type="string" default="color(155 72 33 0)"></attribute>
+		<attribute name="sun-zenith-color" type="string" default="color(158 129 58 0)"></attribute>
+		<attribute name="sun-sky-lighting-enabled" type="boolean" default="true"></attribute>
+		<attribute name="sky-lighting-falloff-amount" type="float" default="10"></attribute>
+		<attribute name="sky-lighting-falloff-intensity" type="float" default="1"></attribute>
+		<attribute name="sunset-intensity" type="float" default="0.3"></attribute>
+		<attribute name="sunset-radial-falloff" type="float" default="0.1"></attribute>
+		<attribute name="sunset-horizontal-falloff" type="float" default="0.6"></attribute>
+		<attribute name="sunset-vertical-falloff" type="float" default="0.5"></attribute>
+		<attribute name="moon-enabled" type="boolean" default="true"></attribute>
+		<attribute name="moon-diameter" type="float" default="2"></attribute>
+		<attribute name="moon-color" type="string" default="#abb9bf00"></attribute>
+		<attribute name="moon-falloff-amount" type="float" default="60"></attribute>
+		<attribute name="stars-enabled" type="boolean" default="true"></attribute>
+		<attribute name="stars-brightness" type="float" default="0.85"></attribute>
+		<attribute name="stars-daytime-brightness" type="float" default="0.1"></attribute>
+		<attribute name="stars-horizon-falloff" type="float" default="0"></attribute>
+		<attribute name="stars-saturation" type="float" default="0.3"></attribute>
+		<attribute name="procedural-stars-enabled" type="boolean" default="true"></attribute>
+		<attribute name="procedural-stars-sharpness" type="float" default="1"></attribute>
+		<attribute name="procedural-stars-amount" type="float" default="1"></attribute>
+		<attribute name="stars-texture-enabled" type="boolean" default="true"></attribute>
+		<attribute name="star-texture-uri" type="string" use="optional"></attribute>
+		<attribute name="star-tint" type="string" default="#ffffff00"></attribute>
+		<attribute name="star-scale" type="float" default="0.5"></attribute>
+		<attribute name="star-rotation-speed" type="float" default="0.25"></attribute>
+		<attribute name="clouds-enabled" type="boolean" default="true"></attribute>
+		<attribute name="clouds-texture-uri" type="string" use="optional"></attribute>
+		<attribute name="clouds-scale-x" type="float" default="2"></attribute>
+		<attribute name="clouds-scale-y" type="float" default="1"></attribute>
+		<attribute name="clouds-speed-x" type="float" default="0.2"></attribute>
+		<attribute name="clouds-speed-y" type="float" default="0.3"></attribute>
+		<attribute name="cloudiness" type="float" default="0.279"></attribute>
+		<attribute name="clouds-opacity" type="float" default="1"></attribute>
+		<attribute name="clouds-sharpness" type="float" default="0.8"></attribute>
+		<attribute name="clouds-shading-intensity" type="float" default="0.8"></attribute>
+		<attribute name="clouds-zenith-falloff" type="float" default="0.339"></attribute>
+		<attribute name="clouds-iterations" type="int" default="3"></attribute>
+		<attribute name="clouds-gain" type="float" default="0.5"></attribute>
+		<attribute name="clouds-lacunarity" type="int" default="2"></attribute>
+		<attribute name="clouds-day-color" type="string" default="#d7dde7"></attribute>
+		<attribute name="clouds-night-color" type="string" default="#7d616f"></attribute>
+	</complexType>
 	
 	<annotation>
 		<documentation>
@@ -15,14 +141,18 @@
 			- path/to/filename.png
 			- /root/path/to/filename.png
 			
-			A color background will be defined as either an RGB, RGBA, or
-			predefined text color and will be applied to the entire background.
-			The color is treated as case-insensitive.
+			A color background will be defined as either an RGB, RGBA, color() value,
+			or predefined text color and will be applied to the entire background.
+			The color is treated as case-insensitive. Note: color() value of 1 is
+			equivalent to "FF". A color() value greater than 1 increases intensity
+			and gets into the HDR range of color.
 			Examples:
 			- #ff0011
 			- #FF0011
 			- #ff001122
 			- #FF001122
+			- color(1 1 1 1)
+			- color(123, 111, 222, 0)
 			- red
 			- RED
 			- rEd
@@ -32,9 +162,40 @@
 		<choice>
 			<element name="panorama" type="string" minOccurs="1" maxOccurs="1"></element>
 			<element name="color" type="string" minOccurs="1" maxOccurs="1"></element>
+			<element name="lite-procedural-sky" type="vem:liteproceduralsky" minOccurs="1" maxOccurs="1"></element>
 		</choice>
 	</complexType>
 
+	<annotation>
+		<documentation>
+			Type for lite fog settings.
+			
+			Attributes:
+			- enabled: Whether or not the lite fog is enabled.
+			- color:   Color to apply to the fog.
+			- density: Density to apply to the fog.
+		</documentation>
+	</annotation>
+	<complexType name="lite-fog-settings">
+		<attribute name="enabled" type="boolean" default="false"></attribute>
+		<attribute name="color" type="string" default="gray"></attribute>
+		<attribute name="density" type="float" default="0.5"></attribute>
+	</complexType>
+
+	<annotation>
+		<documentation>
+			Type for effects settings.
+			
+			Elements:
+			- lite-fog: Lite fog settings.
+		</documentation>
+	</annotation>
+	<complexType name="effects-settings">
+		<sequence>
+			<element name="lite-fog" type="vem:lite-fog-settings" minOccurs="0" maxOccurs="1"></element>
+		</sequence>
+	</complexType>
+	
 	<annotation>
 		<documentation>
 			An input event. Input events contain an input (a user input that
@@ -45,7 +206,7 @@
 			
 			Attributes:
 			- input: Input to monitor
-			- event: Code to invoke when input received.
+			- event: Code to invoke when input received
 			
 			Examples:
 			- <inputevent input="move" event="MoveCharacter(?);"></inputevent>
@@ -840,6 +1001,7 @@
 			
 			Environment:
 			- background: Color/panorama to apply to the background.
+			- effects:    Effects for the environment.
 			- entity:     Entities to place in the environment.
 		</documentation>
 	</annotation>
@@ -862,6 +1024,7 @@
                     <complexType>
                         <sequence>
 							<element name="background" type="vem:background" minOccurs="1" maxOccurs="1"></element>
+							<element name="effects" type="vem:effects-settings" minOccurs="0" maxOccurs="1"></element>
                             <element name="entity" type="vem:entity" minOccurs="0" maxOccurs="unbounded"></element>
                         </sequence>
                     </complexType>
