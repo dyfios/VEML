@@ -453,7 +453,7 @@
 			An empty (container) entity. Inherits all elements and attributes from entity.
 		</documentation>
 	</annotation>
-    <complexType name="containerentity">
+    <complexType name="container">
         <complexContent>
             <extension base="vem:entity">
 
@@ -475,7 +475,7 @@
                           being furthest to the left and 1 being furthest to the right.
 		</documentation>
 	</annotation>
-    <complexType name="audioentity">
+    <complexType name="audio">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -499,7 +499,7 @@
 			- mesh-resource: A list of files containing mesh resources to load for the mesh.
 		</documentation>
 	</annotation>
-    <complexType name="meshentity">
+    <complexType name="mesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -517,7 +517,7 @@
 			- color: Color to give the cube mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="cubemeshentity">
+    <complexType name="cubemesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -534,7 +534,7 @@
 			- color: Color to give the sphere mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="spheremeshentity">
+    <complexType name="spheremesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -551,7 +551,7 @@
 			- color: Color to give the capsule mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="capsulemeshentity">
+    <complexType name="capsulemesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -568,7 +568,7 @@
 			- color: Color to give the cylinder mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="cylindermeshentity">
+    <complexType name="cylindermesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -585,7 +585,7 @@
 			- color: Color to give the plane mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="planemeshentity">
+    <complexType name="planemesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -602,7 +602,7 @@
 			- color: Color to give the torus mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="torusmeshentity">
+    <complexType name="torusmesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -619,7 +619,7 @@
 			- color: Color to give the cone mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="conemeshentity">
+    <complexType name="conemesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -636,7 +636,7 @@
 			- color: Color to give the rectangular pyramid mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="rectangularpyramidmeshentity">
+    <complexType name="rectangularpyramidmesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -653,7 +653,7 @@
 			- color: Color to give the tetrahedron mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="tetrahedronmeshentity">
+    <complexType name="tetrahedronmesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -670,7 +670,7 @@
 			- color: Color to give the prism mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="prismmeshentity">
+    <complexType name="prismmesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -687,7 +687,7 @@
 			- color: Color to give the arch mesh entity.
 		</documentation>
 	</annotation>
-    <complexType name="archmeshentity">
+    <complexType name="archmesh">
         <complexContent>
             <extension base="vem:entity">
                 <sequence>
@@ -708,7 +708,7 @@
 			- label-offset:  Offset for the character entity's label.
 		</documentation>
 	</annotation>
-	<complexType name="characterentity">
+	<complexType name="character">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
@@ -727,7 +727,7 @@
 			A canvas entity. Inherits all elements and attributes from entity.
 		</documentation>
 	</annotation>
-	<complexType name="canvasentity">
+	<complexType name="canvas">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
@@ -744,7 +744,7 @@
 			- on-message: Logic to invoke when a message is received.
 		</documentation>
 	</annotation>
-	<complexType name="htmlentity">
+	<complexType name="html">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
@@ -765,7 +765,7 @@
 			Note: Must be placed within a Canvas Entity.
 		</documentation>
 	</annotation>
-	<complexType name="buttonentity">
+	<complexType name="button">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
@@ -783,7 +783,7 @@
 			Note: Must be placed within a Canvas Entity.
 		</documentation>
 	</annotation>
-	<complexType name="inputentity">
+	<complexType name="input">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
@@ -802,7 +802,7 @@
 			Note: Must be placed within a Canvas Entity.
 		</documentation>
 	</annotation>
-	<complexType name="imageentity">
+	<complexType name="image">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
@@ -819,7 +819,7 @@
 			Note: Scale is ignored.
 		</documentation>
 	</annotation>
-	<complexType name="lightentity">
+	<complexType name="light">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
@@ -849,11 +849,11 @@
 			- type:    Type of terrain. Can be one of (heightmap, voxel, hybrid).
 		</documentation>
 	</annotation>
-	<complexType name="terrainentity">
+	<complexType name="terrain">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
-					<element name="layer" type="vem:terrainentitylayer" minOccurs="1" maxOccurs="unbounded"></element>
+					<element name="layer" type="vem:terrainlayer" minOccurs="1" maxOccurs="unbounded"></element>
 					<element name="layer-masks" type="string" minOccurs="1" maxOccurs="1"></element>
 				</sequence>
 				<attribute name="length" type="double" use="required"></attribute>
@@ -877,7 +877,7 @@
 			- smoothness:      Smoothness factor (must be between 0 and 1).
 		</documentation>
 	</annotation>
-	<complexType name="terrainentitylayer">
+	<complexType name="terrainlayer">
 		<sequence>
             <element name="diffuse-texture" type="string" minOccurs="1" maxOccurs="1"></element>
 			<element name="normal-texture" type="string" minOccurs="1" maxOccurs="1"></element>
@@ -898,7 +898,7 @@
 			Note: Must be placed within a Canvas Entity.
 		</documentation>
 	</annotation>
-	<complexType name="textentity">
+	<complexType name="text">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
@@ -915,7 +915,7 @@
 			A voxel entity. Inherits all elements and attributes from entity.
 		</documentation>
 	</annotation>
-	<complexType name="voxelentity">
+	<complexType name="voxel">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
@@ -946,7 +946,7 @@
 			- wave-intensity:   Wave intensity.
 		</documentation>
 	</annotation>
-	<complexType name="waterentity">
+	<complexType name="water">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
@@ -975,7 +975,7 @@
 			A water entity. Inherits all elements and attributes from entity.
 		</documentation>
 	</annotation>
-	<complexType name="waterblockerentity">
+	<complexType name="waterblocker">
 		<complexContent>
 			<extension base="vem:entity">
 				<sequence>
