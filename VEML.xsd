@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace="http://www.fivesqd.com/schemas/veml/2.3"
+<schema targetNamespace="http://www.fivesqd.com/schemas/veml/2.4"
     elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:vem="http://www.fivesqd.com/schemas/veml/2.3">
+    xmlns:vem="http://www.fivesqd.com/schemas/veml/2.4">
 
 	<annotation>
 		<documentation>
@@ -177,7 +177,7 @@
 		</documentation>
 	</annotation>
 	<complexType name="lite-fog-settings">
-		<attribute name="enabled" type="boolean" default="false"></attribute>
+		<attribute name="fog-enabled" type="boolean" default="false"></attribute>
 		<attribute name="color" type="string" default="gray"></attribute>
 		<attribute name="density" type="float" default="0.5"></attribute>
 	</complexType>
@@ -965,6 +965,67 @@
 					<element name="wave-length" type="float" minOccurs="1" maxOccurs="1"></element>
 					<element name="wave-scale" type="float" minOccurs="1" maxOccurs="1"></element>
 					<element name="wave-intensity" type="float" minOccurs="1" maxOccurs="1"></element>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	
+	<annotation>
+		<documentation>
+			An automobile entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- mesh-name:       Name of the automobile mesh.
+			- mesh-resource:   Mesh resources.
+			- wheels:          Wheels for the automobile.
+			- mass:            Mass of the automobile.
+			- automobile-type: Type of the automobile.
+		</documentation>
+	</annotation>
+	<complexType name="automobileentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+					<element name="mesh-name" type="string" minOccurs="1" maxOccurs="1"></element>
+					<element name="mesh-resource" type="string" minOccurs="1" maxOccurs="unbounded"></element>
+					<element name="wheels" type="vem:automobileentitywheel" minOccurs="0" maxOccurs="unbounded"></element>
+					<element name="mass" type="float" minOccurs="1" maxOccurs="1"></element>
+					<element name="automobile-type" type="string" minOccurs="1" maxOccurs="1"></element>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	
+	<annotation>
+		<documentation>
+			An automobile entity wheel.
+			Elements:
+			- wheel-submesh: Submesh for the wheel.
+			- wheel-radius:  Radius of the wheel.
+		</documentation>
+	</annotation>
+	<complexType name="automobileentitywheel">
+		<sequence>
+			<element name="wheel-submesh" type="string" minOccurs="1" maxOccurs="1"></element>
+			<element name="wheel-radius" type="float" minOccurs="1" maxOccurs="1"></element>
+		</sequence>
+	</complexType>
+	
+	<annotation>
+		<documentation>
+			An airplane entity. Inherits all elements and attributes from entity and includes:
+			Elements:
+			- mesh-name:     Name of the airplane mesh.
+			- mesh-resource: Mesh resources.
+			- mass:          Mass of the airplane.
+		</documentation>
+	</annotation>
+	<complexType name="airplaneentity">
+		<complexContent>
+			<extension base="vem:entity">
+				<sequence>
+					<element name="mesh-name" type="string" minOccurs="1" maxOccurs="1"></element>
+					<element name="mesh-resource" type="string" minOccurs="1" maxOccurs="unbounded"></element>
+					<element name="mass" type="float" minOccurs="1" maxOccurs="1"></element>
 				</sequence>
 			</extension>
 		</complexContent>
