@@ -859,6 +859,14 @@ Partial Public Class entity
     
     Private onloadeventField As String
     
+    Private alignhorizontalField As String
+    
+    Private alignverticalField As String
+    
+    Private stretchtoparentField As Boolean
+    
+    Private stretchtoparentFieldSpecified As Boolean
+    
     '''<remarks/>
     Public Property transform() As basetransform
         Get
@@ -931,6 +939,50 @@ Partial Public Class entity
         End Get
         Set
             Me.onloadeventField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("align-horizontal")>  _
+    Public Property alignhorizontal() As String
+        Get
+            Return Me.alignhorizontalField
+        End Get
+        Set
+            Me.alignhorizontalField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("align-vertical")>  _
+    Public Property alignvertical() As String
+        Get
+            Return Me.alignverticalField
+        End Get
+        Set
+            Me.alignverticalField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("stretch-to-parent")>  _
+    Public Property stretchtoparent() As Boolean
+        Get
+            Return Me.stretchtoparentField
+        End Get
+        Set
+            Me.stretchtoparentField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlIgnoreAttribute()>  _
+    Public Property stretchtoparentSpecified() As Boolean
+        Get
+            Return Me.stretchtoparentFieldSpecified
+        End Get
+        Set
+            Me.stretchtoparentFieldSpecified = value
         End Set
     End Property
 End Class
@@ -1289,9 +1341,45 @@ End Class
 Partial Public Class text
     Inherits entity
     
+    Private colorField As String
+    
     Private text1Field As String
     
     Private fontsizeField As Single
+    
+    Private fontsField As String
+    
+    Private boldField As Boolean
+    
+    Private boldFieldSpecified As Boolean
+    
+    Private italicField As Boolean
+    
+    Private italicFieldSpecified As Boolean
+    
+    Private underlineField As Boolean
+    
+    Private underlineFieldSpecified As Boolean
+    
+    Private strikethroughField As Boolean
+    
+    Private strikethroughFieldSpecified As Boolean
+    
+    Private textalignhorizontalField As String
+    
+    Private textalignverticalField As String
+    
+    Private textwrapField As String
+    
+    '''<remarks/>
+    Public Property color() As String
+        Get
+            Return Me.colorField
+        End Get
+        Set
+            Me.colorField = value
+        End Set
+    End Property
     
     '''<remarks/>
     <System.Xml.Serialization.XmlAttributeAttribute("text")>  _
@@ -1312,6 +1400,138 @@ Partial Public Class text
         End Get
         Set
             Me.fontsizeField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("fonts")>  _
+    Public Property fonts() As String
+        Get
+            Return Me.fontsField
+        End Get
+        Set
+            Me.fontsField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("bold")>  _
+    Public Property bold() As Boolean
+        Get
+            Return Me.boldField
+        End Get
+        Set
+            Me.boldField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlIgnoreAttribute()>  _
+    Public Property boldSpecified() As Boolean
+        Get
+            Return Me.boldFieldSpecified
+        End Get
+        Set
+            Me.boldFieldSpecified = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("italic")>  _
+    Public Property italic() As Boolean
+        Get
+            Return Me.italicField
+        End Get
+        Set
+            Me.italicField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlIgnoreAttribute()>  _
+    Public Property italicSpecified() As Boolean
+        Get
+            Return Me.italicFieldSpecified
+        End Get
+        Set
+            Me.italicFieldSpecified = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("underline")>  _
+    Public Property underline() As Boolean
+        Get
+            Return Me.underlineField
+        End Get
+        Set
+            Me.underlineField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlIgnoreAttribute()>  _
+    Public Property underlineSpecified() As Boolean
+        Get
+            Return Me.underlineFieldSpecified
+        End Get
+        Set
+            Me.underlineFieldSpecified = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("strikethrough")>  _
+    Public Property strikethrough() As Boolean
+        Get
+            Return Me.strikethroughField
+        End Get
+        Set
+            Me.strikethroughField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlIgnoreAttribute()>  _
+    Public Property strikethroughSpecified() As Boolean
+        Get
+            Return Me.strikethroughFieldSpecified
+        End Get
+        Set
+            Me.strikethroughFieldSpecified = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("text-align-horizontal")>  _
+    Public Property textalignhorizontal() As String
+        Get
+            Return Me.textalignhorizontalField
+        End Get
+        Set
+            Me.textalignhorizontalField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("text-align-vertical")>  _
+    Public Property textalignvertical() As String
+        Get
+            Return Me.textalignverticalField
+        End Get
+        Set
+            Me.textalignverticalField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("text-wrap")>  _
+    Public Property textwrap() As String
+        Get
+            Return Me.textwrapField
+        End Get
+        Set
+            Me.textwrapField = value
         End Set
     End Property
 End Class
@@ -1475,7 +1695,19 @@ End Class
 Partial Public Class button
     Inherits entity
     
+    Private colorField As String
+    
     Private onclickeventField As String
+    
+    '''<remarks/>
+    Public Property color() As String
+        Get
+            Return Me.colorField
+        End Get
+        Set
+            Me.colorField = value
+        End Set
+    End Property
     
     '''<remarks/>
     <System.Xml.Serialization.XmlAttributeAttribute("on-click-event")>  _
