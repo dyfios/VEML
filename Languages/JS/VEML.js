@@ -1062,7 +1062,8 @@ class text extends entity {
     private var textwrapField : System.String;
     
     ///<remarks/>
-    public final function get color() : System.String {
+    public final System.Xml.Serialization.XmlAttributeAttribute("color") 
+    function get color() : System.String {
         return this.colorField;
     }
     public final function set color(value : System.String) {
@@ -1318,7 +1319,8 @@ class button extends entity {
     private var onclickeventField : System.String;
     
     ///<remarks/>
-    public final function get color() : System.String {
+    public final System.Xml.Serialization.XmlAttributeAttribute("color") 
+    function get color() : System.String {
         return this.colorField;
     }
     public final function set color(value : System.String) {

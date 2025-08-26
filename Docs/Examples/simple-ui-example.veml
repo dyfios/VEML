@@ -25,8 +25,7 @@
                         </transform>
                         <entity>
                             <textentity text="Welcome!" font-size="0.12" font="Arial" 
-                                       bold="true" text-align-horizontal="center">
-                                <color>darkblue</color>
+                                       bold="true" text-align-horizontal="center" color="darkblue">
                             </textentity>
                         </entity>
                     </entity>
@@ -40,8 +39,7 @@
                         <entity>
                             <textentity text="This demonstrates the new text styling features including bold, italic, and color support." 
                                        font-size="0.06" italic="true" text-wrap="wrap"
-                                       text-align-horizontal="center">
-                                <color>darkgreen</color>
+                                       text-align-horizontal="center" color="darkgreen">
                             </textentity>
                         </entity>
                     </entity>
@@ -53,12 +51,10 @@
                             <size-percent x="0.3" y="0.1" />
                         </transform>
                         <entity>
-                            <buttonentity on-click-event="handleAction">
-                                <color>orange</color>
+                            <buttonentity on-click-event="handleAction" color="orange">
                                 <entity>
                                     <textentity text="Click Here" font-size="0.08" 
-                                               bold="true" text-align-horizontal="center">
-                                        <color>white</color>
+                                               bold="true" text-align-horizontal="center" color="white">
                                     </textentity>
                                 </entity>
                             </buttonentity>
@@ -73,8 +69,7 @@
                         </transform>
                         <entity>
                             <textentity text="Footer text with underline" font-size="0.05" 
-                                       underline="true" text-align-horizontal="center">
-                                <color>gray</color>
+                                       underline="true" text-align-horizontal="center" color="gray">
                             </textentity>
                         </entity>
                     </entity>

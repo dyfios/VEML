@@ -1355,6 +1355,7 @@ public partial class text : entity {
     private string textwrapField;
     
     /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute("color")]
     public string color {
         get {
             return this.colorField;
@@ -1677,6 +1678,7 @@ public partial class button : entity {
     private string onclickeventField;
     
     /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute("color")]
     public string color {
         get {
             return this.colorField;

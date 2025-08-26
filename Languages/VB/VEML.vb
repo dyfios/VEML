@@ -1372,6 +1372,7 @@ Partial Public Class text
     Private textwrapField As String
     
     '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("color")>  _
     Public Property color() As String
         Get
             Return Me.colorField
@@ -1700,6 +1701,7 @@ Partial Public Class button
     Private onclickeventField As String
     
     '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("color")>  _
     Public Property color() As String
         Get
             Return Me.colorField
