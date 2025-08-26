@@ -18,13 +18,13 @@
                 <canvasentity>
                     
                     <!-- Centered header with styling -->
-                    <entity tag="header" align-horizontal="center" align-vertical="top">
-                        <transform>
+                    <entity tag="header">
+                        <transform align-horizontal="center" align-vertical="top">
                             <position-percent x="0.5" y="0.8" />
                             <size-percent x="0.6" y="0.15" />
                         </transform>
                         <entity>
-                            <textentity text="Welcome!" font-size="0.12" fonts="Arial" 
+                            <textentity text="Welcome!" font-size="0.12" font="Arial" 
                                        bold="true" text-align-horizontal="center">
                                 <color>darkblue</color>
                             </textentity>
@@ -32,8 +32,8 @@
                     </entity>
                     
                     <!-- Styled description text -->
-                    <entity tag="description" align-horizontal="center">
-                        <transform>
+                    <entity tag="description">
+                        <transform align-horizontal="center">
                             <position-percent x="0.5" y="0.6" />
                             <size-percent x="0.8" y="0.15" />
                         </transform>
@@ -47,8 +47,8 @@
                     </entity>
                     
                     <!-- Colored button with alignment -->
-                    <entity tag="action-button" align-horizontal="center">
-                        <transform>
+                    <entity tag="action-button">
+                        <transform align-horizontal="center">
                             <position-percent x="0.5" y="0.4" />
                             <size-percent x="0.3" y="0.1" />
                         </transform>
@@ -66,8 +66,8 @@
                     </entity>
                     
                     <!-- Stretched footer text -->
-                    <entity tag="footer" stretch-to-parent="true" align-vertical="bottom">
-                        <transform>
+                    <entity tag="footer">
+                        <transform stretch-to-parent="true" align-vertical="bottom">
                             <position-percent x="0.1" y="0.1" />
                             <size-percent x="0.8" y="0.08" />
                         </transform>

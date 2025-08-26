@@ -540,6 +540,14 @@ class canvastransform extends basetransform {
     
     private var sizepercentField : sizepercent;
     
+    private var alignhorizontalField : System.String;
+    
+    private var alignverticalField : System.String;
+    
+    private var stretchtoparentField : System.Boolean;
+    
+    private var stretchtoparentFieldSpecified : System.Boolean;
+    
     ///<remarks/>
     public final System.Xml.Serialization.XmlElementAttribute("position-percent") 
     function get positionpercent() : positionpercent {
@@ -556,6 +564,42 @@ class canvastransform extends basetransform {
     }
     public final function set sizepercent(value : sizepercent) {
         this.sizepercentField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("align-horizontal") 
+    function get alignhorizontal() : System.String {
+        return this.alignhorizontalField;
+    }
+    public final function set alignhorizontal(value : System.String) {
+        this.alignhorizontalField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("align-vertical") 
+    function get alignvertical() : System.String {
+        return this.alignverticalField;
+    }
+    public final function set alignvertical(value : System.String) {
+        this.alignverticalField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlAttributeAttribute("stretch-to-parent") 
+    function get stretchtoparent() : System.Boolean {
+        return this.stretchtoparentField;
+    }
+    public final function set stretchtoparent(value : System.Boolean) {
+        this.stretchtoparentField = value;
+    }
+    
+    ///<remarks/>
+    public final System.Xml.Serialization.XmlIgnoreAttribute() 
+    function get stretchtoparentSpecified() : System.Boolean {
+        return this.stretchtoparentFieldSpecified;
+    }
+    public final function set stretchtoparentSpecified(value : System.Boolean) {
+        this.stretchtoparentFieldSpecified = value;
     }
 }
 
@@ -647,14 +691,6 @@ class entity {
     
     private var onloadeventField : System.String;
     
-    private var alignhorizontalField : System.String;
-    
-    private var alignverticalField : System.String;
-    
-    private var stretchtoparentField : System.Boolean;
-    
-    private var stretchtoparentFieldSpecified : System.Boolean;
-    
     ///<remarks/>
     public final function get transform() : basetransform {
         return this.transformField;
@@ -714,42 +750,6 @@ class entity {
     }
     public final function set onloadevent(value : System.String) {
         this.onloadeventField = value;
-    }
-    
-    ///<remarks/>
-    public final System.Xml.Serialization.XmlAttributeAttribute("align-horizontal") 
-    function get alignhorizontal() : System.String {
-        return this.alignhorizontalField;
-    }
-    public final function set alignhorizontal(value : System.String) {
-        this.alignhorizontalField = value;
-    }
-    
-    ///<remarks/>
-    public final System.Xml.Serialization.XmlAttributeAttribute("align-vertical") 
-    function get alignvertical() : System.String {
-        return this.alignverticalField;
-    }
-    public final function set alignvertical(value : System.String) {
-        this.alignverticalField = value;
-    }
-    
-    ///<remarks/>
-    public final System.Xml.Serialization.XmlAttributeAttribute("stretch-to-parent") 
-    function get stretchtoparent() : System.Boolean {
-        return this.stretchtoparentField;
-    }
-    public final function set stretchtoparent(value : System.Boolean) {
-        this.stretchtoparentField = value;
-    }
-    
-    ///<remarks/>
-    public final System.Xml.Serialization.XmlIgnoreAttribute() 
-    function get stretchtoparentSpecified() : System.Boolean {
-        return this.stretchtoparentFieldSpecified;
-    }
-    public final function set stretchtoparentSpecified(value : System.Boolean) {
-        this.stretchtoparentFieldSpecified = value;
     }
 }
 
@@ -1037,7 +1037,7 @@ class text extends entity {
     
     private var fontsizeField : float;
     
-    private var fontsField : System.String;
+    private var fontField : System.String;
     
     private var boldField : System.Boolean;
     
@@ -1088,12 +1088,12 @@ class text extends entity {
     }
     
     ///<remarks/>
-    public final System.Xml.Serialization.XmlAttributeAttribute("fonts") 
-    function get fonts() : System.String {
-        return this.fontsField;
+    public final System.Xml.Serialization.XmlAttributeAttribute("font") 
+    function get font() : System.String {
+        return this.fontField;
     }
-    public final function set fonts(value : System.String) {
-        this.fontsField = value;
+    public final function set font(value : System.String) {
+        this.fontField = value;
     }
     
     ///<remarks/>

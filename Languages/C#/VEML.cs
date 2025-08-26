@@ -685,6 +685,14 @@ public partial class canvastransform : basetransform {
     
     private sizepercent sizepercentField;
     
+    private string alignhorizontalField;
+    
+    private string alignverticalField;
+    
+    private bool stretchtoparentField;
+    
+    private bool stretchtoparentFieldSpecified;
+    
     /// <remarks/>
     [System.Xml.Serialization.XmlElementAttribute("position-percent")]
     public positionpercent positionpercent {
@@ -704,6 +712,50 @@ public partial class canvastransform : basetransform {
         }
         set {
             this.sizepercentField = value;
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute("align-horizontal")]
+    public string alignhorizontal {
+        get {
+            return this.alignhorizontalField;
+        }
+        set {
+            this.alignhorizontalField = value;
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute("align-vertical")]
+    public string alignvertical {
+        get {
+            return this.alignverticalField;
+        }
+        set {
+            this.alignverticalField = value;
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute("stretch-to-parent")]
+    public bool stretchtoparent {
+        get {
+            return this.stretchtoparentField;
+        }
+        set {
+            this.stretchtoparentField = value;
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIgnoreAttribute()]
+    public bool stretchtoparentSpecified {
+        get {
+            return this.stretchtoparentFieldSpecified;
+        }
+        set {
+            this.stretchtoparentFieldSpecified = value;
         }
     }
 }
@@ -848,14 +900,6 @@ public partial class entity {
     
     private string onloadeventField;
     
-    private string alignhorizontalField;
-    
-    private string alignverticalField;
-    
-    private bool stretchtoparentField;
-    
-    private bool stretchtoparentFieldSpecified;
-    
     /// <remarks/>
     public basetransform transform {
         get {
@@ -928,50 +972,6 @@ public partial class entity {
         }
         set {
             this.onloadeventField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlAttributeAttribute("align-horizontal")]
-    public string alignhorizontal {
-        get {
-            return this.alignhorizontalField;
-        }
-        set {
-            this.alignhorizontalField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlAttributeAttribute("align-vertical")]
-    public string alignvertical {
-        get {
-            return this.alignverticalField;
-        }
-        set {
-            this.alignverticalField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlAttributeAttribute("stretch-to-parent")]
-    public bool stretchtoparent {
-        get {
-            return this.stretchtoparentField;
-        }
-        set {
-            this.stretchtoparentField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool stretchtoparentSpecified {
-        get {
-            return this.stretchtoparentFieldSpecified;
-        }
-        set {
-            this.stretchtoparentFieldSpecified = value;
         }
     }
 }
@@ -1330,7 +1330,7 @@ public partial class text : entity {
     
     private float fontsizeField;
     
-    private string fontsField;
+    private string fontField;
     
     private bool boldField;
     
@@ -1387,13 +1387,13 @@ public partial class text : entity {
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlAttributeAttribute("fonts")]
-    public string fonts {
+    [System.Xml.Serialization.XmlAttributeAttribute("font")]
+    public string font {
         get {
-            return this.fontsField;
+            return this.fontField;
         }
         set {
-            this.fontsField = value;
+            this.fontField = value;
         }
     }
     

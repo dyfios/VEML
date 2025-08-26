@@ -18,13 +18,13 @@
                 <canvasentity>
                     
                     <!-- Header text with enhanced styling -->
-                    <entity tag="header" align-horizontal="center" align-vertical="top">
-                        <transform>
+                    <entity tag="header">
+                        <transform align-horizontal="center" align-vertical="top">
                             <position-percent x="0.5" y="0.9" />
                             <size-percent x="0.8" y="0.1" />
                         </transform>
                         <entity>
-                            <textentity text="Enhanced UI Demo" font-size="0.15" fonts="Arial" 
+                            <textentity text="Enhanced UI Demo" font-size="0.15" font="Arial" 
                                        bold="true" text-align-horizontal="center">
                                 <color>#2C3E50</color>
                             </textentity>
@@ -32,8 +32,8 @@
                     </entity>
                     
                     <!-- Styled text examples -->
-                    <entity tag="text-examples" align-horizontal="left" align-vertical="center">
-                        <transform>
+                    <entity tag="text-examples">
+                        <transform align-horizontal="left" align-vertical="center">
                             <position-percent x="0.1" y="0.7" />
                             <size-percent x="0.35" y="0.4" />
                         </transform>
@@ -81,8 +81,8 @@
                         </entity>
                         
                         <!-- Wrapped text -->
-                        <entity tag="wrapped-text" stretch-to-parent="true">
-                            <transform>
+                        <entity tag="wrapped-text">
+                            <transform stretch-to-parent="true">
                                 <position-percent x="0" y="0.0" />
                                 <size-percent x="1.0" y="0.3" />
                             </transform>
@@ -97,15 +97,15 @@
                     </entity>
                     
                     <!-- Button examples -->
-                    <entity tag="button-examples" align-horizontal="right" align-vertical="center">
-                        <transform>
+                    <entity tag="button-examples">
+                        <transform align-horizontal="right" align-vertical="center">
                             <position-percent x="0.55" y="0.7" />
                             <size-percent x="0.35" y="0.4" />
                         </transform>
                         
                         <!-- Red button with center alignment -->
-                        <entity tag="red-button" align-horizontal="center">
-                            <transform>
+                        <entity tag="red-button">
+                            <transform align-horizontal="center">
                                 <position-percent x="0.5" y="0.8" />
                                 <size-percent x="0.8" y="0.15" />
                             </transform>
@@ -123,8 +123,8 @@
                         </entity>
                         
                         <!-- Blue button with left alignment -->
-                        <entity tag="blue-button" align-horizontal="left">
-                            <transform>
+                        <entity tag="blue-button">
+                            <transform align-horizontal="left">
                                 <position-percent x="0.1" y="0.6" />
                                 <size-percent x="0.8" y="0.15" />
                             </transform>
@@ -142,8 +142,8 @@
                         </entity>
                         
                         <!-- Green stretched button -->
-                        <entity tag="green-button" stretch-to-parent="true">
-                            <transform>
+                        <entity tag="green-button">
+                            <transform stretch-to-parent="true">
                                 <position-percent x="0.1" y="0.4" />
                                 <size-percent x="0.8" y="0.15" />
                             </transform>
@@ -161,8 +161,8 @@
                         </entity>
                         
                         <!-- Multi-styled button -->
-                        <entity tag="fancy-button" align-horizontal="center">
-                            <transform>
+                        <entity tag="fancy-button">
+                            <transform align-horizontal="center">
                                 <position-percent x="0.5" y="0.2" />
                                 <size-percent x="0.8" y="0.15" />
                             </transform>
@@ -171,7 +171,7 @@
                                     <color>#9B59B6</color>
                                     <entity>
                                         <textentity text="Fancy Button" font-size="0.08" 
-                                                   fonts="Arial" bold="true" italic="true"
+                                                   font="Arial" bold="true" italic="true"
                                                    text-align-horizontal="center">
                                             <color>#F8C471</color>
                                         </textentity>
@@ -188,8 +188,8 @@
                             <size-percent x="0.8" y="0.2" />
                         </transform>
                         
-                        <entity tag="showcase-title" align-horizontal="center">
-                            <transform>
+                        <entity tag="showcase-title">
+                            <transform align-horizontal="center">
                                 <position-percent x="0.5" y="0.9" />
                                 <size-percent x="1.0" y="0.2" />
                             </transform>
@@ -202,8 +202,8 @@
                         </entity>
                         
                         <!-- Left aligned text -->
-                        <entity tag="left-text" align-horizontal="left" align-vertical="center">
-                            <transform>
+                        <entity tag="left-text">
+                            <transform align-horizontal="left" align-vertical="center">
                                 <position-percent x="0" y="0.5" />
                                 <size-percent x="0.3" y="0.4" />
                             </transform>
@@ -216,8 +216,8 @@
                         </entity>
                         
                         <!-- Center aligned text -->
-                        <entity tag="center-text" align-horizontal="center" align-vertical="center">
-                            <transform>
+                        <entity tag="center-text">
+                            <transform align-horizontal="center" align-vertical="center">
                                 <position-percent x="0.5" y="0.5" />
                                 <size-percent x="0.3" y="0.4" />
                             </transform>
@@ -230,8 +230,8 @@
                         </entity>
                         
                         <!-- Right aligned text -->
-                        <entity tag="right-text" align-horizontal="right" align-vertical="center">
-                            <transform>
+                        <entity tag="right-text">
+                            <transform align-horizontal="right" align-vertical="center">
                                 <position-percent x="1.0" y="0.5" />
                                 <size-percent x="0.3" y="0.4" />
                             </transform>

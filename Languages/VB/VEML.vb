@@ -694,6 +694,14 @@ Partial Public Class canvastransform
     
     Private sizepercentField As sizepercent
     
+    Private alignhorizontalField As String
+    
+    Private alignverticalField As String
+    
+    Private stretchtoparentField As Boolean
+    
+    Private stretchtoparentFieldSpecified As Boolean
+    
     '''<remarks/>
     <System.Xml.Serialization.XmlElementAttribute("position-percent")>  _
     Public Property positionpercent() As positionpercent
@@ -713,6 +721,50 @@ Partial Public Class canvastransform
         End Get
         Set
             Me.sizepercentField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("align-horizontal")>  _
+    Public Property alignhorizontal() As String
+        Get
+            Return Me.alignhorizontalField
+        End Get
+        Set
+            Me.alignhorizontalField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("align-vertical")>  _
+    Public Property alignvertical() As String
+        Get
+            Return Me.alignverticalField
+        End Get
+        Set
+            Me.alignverticalField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlAttributeAttribute("stretch-to-parent")>  _
+    Public Property stretchtoparent() As Boolean
+        Get
+            Return Me.stretchtoparentField
+        End Get
+        Set
+            Me.stretchtoparentField = value
+        End Set
+    End Property
+    
+    '''<remarks/>
+    <System.Xml.Serialization.XmlIgnoreAttribute()>  _
+    Public Property stretchtoparentSpecified() As Boolean
+        Get
+            Return Me.stretchtoparentFieldSpecified
+        End Get
+        Set
+            Me.stretchtoparentFieldSpecified = value
         End Set
     End Property
 End Class
@@ -859,14 +911,6 @@ Partial Public Class entity
     
     Private onloadeventField As String
     
-    Private alignhorizontalField As String
-    
-    Private alignverticalField As String
-    
-    Private stretchtoparentField As Boolean
-    
-    Private stretchtoparentFieldSpecified As Boolean
-    
     '''<remarks/>
     Public Property transform() As basetransform
         Get
@@ -939,50 +983,6 @@ Partial Public Class entity
         End Get
         Set
             Me.onloadeventField = value
-        End Set
-    End Property
-    
-    '''<remarks/>
-    <System.Xml.Serialization.XmlAttributeAttribute("align-horizontal")>  _
-    Public Property alignhorizontal() As String
-        Get
-            Return Me.alignhorizontalField
-        End Get
-        Set
-            Me.alignhorizontalField = value
-        End Set
-    End Property
-    
-    '''<remarks/>
-    <System.Xml.Serialization.XmlAttributeAttribute("align-vertical")>  _
-    Public Property alignvertical() As String
-        Get
-            Return Me.alignverticalField
-        End Get
-        Set
-            Me.alignverticalField = value
-        End Set
-    End Property
-    
-    '''<remarks/>
-    <System.Xml.Serialization.XmlAttributeAttribute("stretch-to-parent")>  _
-    Public Property stretchtoparent() As Boolean
-        Get
-            Return Me.stretchtoparentField
-        End Get
-        Set
-            Me.stretchtoparentField = value
-        End Set
-    End Property
-    
-    '''<remarks/>
-    <System.Xml.Serialization.XmlIgnoreAttribute()>  _
-    Public Property stretchtoparentSpecified() As Boolean
-        Get
-            Return Me.stretchtoparentFieldSpecified
-        End Get
-        Set
-            Me.stretchtoparentFieldSpecified = value
         End Set
     End Property
 End Class
@@ -1347,7 +1347,7 @@ Partial Public Class text
     
     Private fontsizeField As Single
     
-    Private fontsField As String
+    Private fontField As String
     
     Private boldField As Boolean
     
@@ -1404,13 +1404,13 @@ Partial Public Class text
     End Property
     
     '''<remarks/>
-    <System.Xml.Serialization.XmlAttributeAttribute("fonts")>  _
-    Public Property fonts() As String
+    <System.Xml.Serialization.XmlAttributeAttribute("font")>  _
+    Public Property font() As String
         Get
-            Return Me.fontsField
+            Return Me.fontField
         End Get
         Set
-            Me.fontsField = value
+            Me.fontField = value
         End Set
     End Property
     
